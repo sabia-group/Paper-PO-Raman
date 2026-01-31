@@ -1,4 +1,4 @@
-# Investigating Anharmonicities in Polarization-Orientation Raman Spectra of Acene Crystals with Machine Learning
+# Investigating anharmonicities in polarization-orientation Raman spectra of acene crystals with machine learning
 
 **Authors:** Paolo Lazzaroni, Shubham Sharma, Mariana Rossi
 
