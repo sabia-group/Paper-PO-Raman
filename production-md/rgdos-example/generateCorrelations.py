@@ -56,7 +56,7 @@ def createDisplacementTraj(temp, a, nsteps, nruns):
     
     for r in range(1,nruns+1):
         disptj = []
-        traj = io.iread( './' + str(temp) + 'K/' + str(a) + 'x' + str(a) + 'x' + str(a) + '/nve/run' + str(r) + '/nvt.pos_0.xyz', format='extxyz')
+        traj = io.iread( './' + str(temp) + 'K/' + str(a) + 'x' + str(a) + 'x' + str(a) + '/nve/run' + str(r) + '/nve.pos_0.xyz', format='extxyz')
         #Assuming trajectory is in Angstroms!
         for i in range(nsteps):
             data = next(traj).get_positions().flatten()/0.52917720859-scEquilibrium
