@@ -1,0 +1,1787 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.0    -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingffsocket
+ # Initializing system object 
+ # Initializing simulation object 
+ # Binding the forces 
+Created unix socket with address unixsocketipi
+ @ForceField: Starting the polling thread main loop.
+ # i-PI loaded input file:  RESTART
+ --- begin input file content ---
+<simulation verbosity='medium'>
+    <prng>
+       <seed>19387</seed>
+       <state shape='(624)'>
+        [ 1998990773, 3589869547, 3787727352, 1506691849, 2305829727, 
+          437701588, 4143555867, 4058120665, 2977696047, 3623920220, 
+          173532558, 1426573109, 4039354788, 497181381, 638018999, 
+          1774450218, 890454294, 333815774, 1265381250, 3956559068, 
+          3013807654, 3289184942, 658274669, 593677704, 1043249573, 
+          3976201459, 2181480585, 2310509684, 383500285, 3917499259, 
+          3332787156, 2774734674, 3190158014, 876093214, 1611105516, 
+          3696309251, 1590529907, 3139522466, 2337518399, 1745834596, 
+          3377562005, 2996500218, 2576301825, 4259992036, 4258194057, 
+          1137006391, 1678585594, 1722041438, 2348823116, 1337389507, 
+          2947838802, 119799478, 3854960687, 88866075, 1915641138, 
+          3260442083, 1300801077, 3703924882, 4266654880, 3008209876, 
+          1310643930, 2611826604, 2276321316, 3712552143, 3117708465, 
+          1695755507, 2679319056, 558995729, 3024728645, 3258573563, 
+          2543122432, 2540997323, 2386584038, 2480498244, 3143357343, 
+          2022200863, 2790934683, 1978452495, 3955623538, 3376110872, 
+          561969436, 4073206830, 3108854873, 243677424, 481729825, 
+          76571827, 1528565089, 3752525916, 2663243575, 1150510792, 
+          1901339624, 2928686123, 755032208, 3047114123, 2942138427, 
+          1577104225, 2122832890, 71609177, 2425383194, 4005528754, 
+          3551936043, 806534859, 4213118477, 832760378, 3298389045, 
+          2130860669, 3453410222, 1986954367, 89621830, 2055773013, 
+          3320711491, 532623124, 43767573, 154528894, 1207674252, 
+          2271223754, 2479817219, 3756293454, 4129427104, 916234006, 
+          3202913627, 509723858, 4075178397, 2158765501, 2481822541, 
+          2124026283, 4058198108, 501372879, 154272831, 2060322122, 
+          3479921784, 3945483436, 744763194, 1442241218, 674997958, 
+          1712512674, 2663719959, 3738637672, 2645215163, 2406674035, 
+          1437606044, 1139344724, 1841315982, 2296552646, 476327293, 
+          3079493084, 2446121261, 2393705924, 293093638, 3631197007, 
+          357840420, 1420352424, 1889621665, 3710124310, 829139709, 
+          813581450, 1707448540, 669077093, 1640159654, 3121333279, 
+          2229123994, 3840242475, 3540165954, 2888578346, 208397131, 
+          728287036, 2451834261, 1367215267, 1136337978, 1097446152, 
+          511951609, 2998381559, 586213775, 275909443, 376714847, 
+          1904495138, 2808129916, 1293736621, 3672528258, 3339065134, 
+          2007311564, 1714465223, 145880708, 3764423537, 2931103065, 
+          420276073, 3479527046, 1928806495, 3759691398, 1267309926, 
+          847353705, 993747445, 3671174425, 2311015415, 4077636022, 
+          2989762558, 1068432034, 4261503504, 3262193220, 2618252754, 
+          2090605513, 1895943540, 3789799009, 4121760993, 713077913, 
+          3062830411, 223979348, 2554269045, 2169757452, 2017566893, 
+          4126870453, 458609037, 2036037332, 1113263744, 2594370119, 
+          2271447829, 4200426424, 1448747053, 1442554117, 2512229714, 
+          1314442508, 147001929, 90523368, 1858090949, 3965250186, 
+          1272969819, 729137744, 3743751202, 1715484398, 2718611234, 
+          2482981900, 1246894605, 2028340919, 1364385266, 1993757381, 
+          271926759, 1536808458, 2351822183, 511487720, 3096979936, 
+          2972921174, 1618709357, 2815502613, 2758490437, 575426487, 
+          2466658664, 3749771723, 1096434213, 1305097529, 2326088997, 
+          2333434439, 1779491478, 97323284, 2210946846, 2142836742, 
+          510802492, 1194718465, 3931529038, 2526763172, 1521140422, 
+          2949680804, 2634301850, 1531075052, 3212672295, 1681778059, 
+          1568314442, 1847314222, 4267180333, 2503275307, 335046256, 
+          2931347361, 2817013717, 3855191612, 1780554711, 3482182859, 
+          2496214512, 2552328711, 5612137, 3331416717, 2138556354, 
+          15288546, 1615679992, 455572120, 3590373918, 4223612183, 
+          615842346, 4154327986, 825802473, 2432590798, 2392005919, 
+          1811017672, 4253762206, 2899010196, 1969479565, 3797944012, 
+          612917642, 3150647559, 1908876743, 107469081, 296329040, 
+          2741339122, 1630090812, 670708356, 4269036481, 3266154442, 
+          2228232498, 4273593492, 3068036171, 3785005019, 4232650630, 
+          2777978553, 7391979, 3562115807, 2450216503, 4224451329, 
+          1565342580, 251873930, 1946872641, 1137153555, 2078895054, 
+          1170547023, 3199228531, 3001981904, 336679063, 2008889768, 
+          1043099311, 802591927, 2066508716, 3560575957, 4072673479, 
+          2408551090, 3706123724, 2945424860, 1171141502, 915834015, 
+          1226852139, 2160044750, 3640225086, 3168474417, 1452015524, 
+          2294324190, 2695167296, 504173631, 800171052, 1552003277, 
+          200457839, 2384771380, 3266640705, 2051370458, 2110342347, 
+          2993879250, 614441663, 2657487480, 2274312590, 831936753, 
+          3398776031, 1146228746, 1406448386, 3832724179, 679811317, 
+          3265242690, 3334120036, 4182537595, 2087303907, 1282907930, 
+          1172209697, 3505543501, 857875215, 1835326526, 3555898988, 
+          13989843, 3619881505, 4055175275, 3159337411, 2390604944, 
+          469740518, 1025380113, 1651089689, 1028347828, 3458264578, 
+          2110915683, 2097715915, 3088980056, 3621516176, 3194139141, 
+          2197213968, 1368147721, 2406005653, 507463612, 3687980137, 
+          1085410720, 96969734, 4099127843, 1727762134, 4267949357, 
+          1250949761, 2755815935, 711166070, 4278093431, 1313805346, 
+          1279651092, 1994379496, 516127592, 1306542768, 3675942971, 
+          158486200, 3390190841, 1755584339, 3796528287, 3255017222, 
+          3405367104, 941729875, 1808484684, 462771180, 73445849, 
+          1274028857, 3547271689, 3378952430, 2718181283, 1260341079, 
+          3306412962, 2291543105, 4281205354, 534246042, 3669006735, 
+          2118421721, 1498320201, 2227832535, 3918834512, 1859774254, 
+          4020957115, 1688627750, 574930087, 2492405281, 3558145142, 
+          3238918056, 4096318972, 58187410, 2177405665, 3979309094, 
+          2125182160, 793269639, 1661933177, 3800217797, 3551905501, 
+          3578002630, 2261047500, 48659095, 2440480401, 2535001441, 
+          1405469511, 429654550, 3883459797, 161865096, 3442995692, 
+          824487009, 1212874519, 3901994128, 185268868, 588732473, 
+          2481437564, 3021259059, 193384480, 1324040545, 68043943, 
+          2618938337, 2362419434, 132486407, 3160789991, 241989100, 
+          760416371, 2471446755, 1150340585, 1964328353, 3320255404, 
+          3782489960, 321490190, 1870111186, 2393371343, 283181786, 
+          1234935642, 2990421180, 240368705, 1890058306, 3258792794, 
+          49225202, 616869512, 997457943, 3831495218, 4067647452, 
+          1952007971, 3671561307, 2170195433, 3275130980, 847297449, 
+          522440037, 1498051083, 2519476001, 3881811524, 2789136630, 
+          2193443097, 3634540155, 850472260, 2292302900, 3136502957, 
+          2206955954, 2230163822, 240244671, 3202809197, 2208842404, 
+          3438510175, 2610057559, 2028936818, 4173218827, 4229286575, 
+          45736960, 3703509530, 1870624052, 849115541, 1960722420, 
+          643620896, 3366105994, 541696476, 4245381982, 2403967142, 
+          209730532, 2655116375, 1818175610, 1524770866, 2221710618, 
+          1654652336, 1231995255, 3230088446, 2673191800, 3509153652, 
+          1390635933, 1637987632, 703808586, 96716791, 3913137093, 
+          3111104820, 524568661, 3406309965, 4203855536, 2499111066, 
+          707811609, 336278485, 2162287510, 3497253883, 1271995101, 
+          3979113498, 74828155, 953997993, 1118392943, 1637005996, 
+          4128990659, 3066739483, 4071982842, 2418090587, 3117892471, 
+          3324042798, 2457797238, 2406884408, 1171656892, 2840488599, 
+          2117670651, 1133401523, 2770596081, 2814823194, 1197355579, 
+          2180722754, 1125352254, 3840085800, 3737336392, 1654945429, 
+          415571400, 1257167398, 710346329, 612696647, 2399678594, 
+          1080911992, 2553728044, 1043158354, 2086103156, 251000304, 
+          2781655255, 2835329171, 132049133, 2680947466, 3212275081, 
+          4180234397, 2215643455, 38402499, 3099642869, 1118407382, 
+          2961575157, 4152416173, 3160827662, 561450916, 3455373253, 
+          3526427945, 1635896793, 3954977785, 1947633986, 3957685035, 
+          4155352982, 2760813388, 2917126577, 109352276, 149794329, 
+          1916102856, 2796150384, 1468644665, 2632260494, 3858242966, 
+          3436028371, 3710793022, 1213125160, 2161437956, 127082312, 
+          3280657203, 3187849555, 3399974579, 1188679674 ]
+       </state>
+       <set_pos>404</set_pos>
+    </prng>
+    <output prefix='nvt'>
+       <trajectory filename='pos' stride='10' cell_units='angstrom'>positions{angstrom}</trajectory>
+       <properties shape='(5)' filename='md' stride='50'> [ step, time{picosecond}, conserved, temperature{Kelvin}, potential ] </properties>
+    </output>
+    <step>50000</step>
+   <total_steps>200000</total_steps>
+   <total_time>83600</total_time>
+    <ffsocket mode='unix' name='MASE'>
+       <address>unixsocketipi</address>
+       <port>23423</port>
+    </ffsocket>
+    <system>
+       <forces>
+          <force forcefield='MASE'>
+          </force>
+       </forces>
+       <ensemble>
+          <temperature>  3.16681520e-04</temperature>
+          <eens>  7.04635201e-05</eens>
+          <hamiltonian_weights shape='(1)'> [   1.00000000e+00 ] </hamiltonian_weights>
+          <time>  2.06706865e+06</time>
+       </ensemble>
+       <motion mode='dynamics'>
+          <dynamics>
+             <timestep>  4.13413730e+01</timestep>
+             <nmts shape='(1)'> [ 1 ] </nmts>
+          </dynamics>
+       </motion>
+       <beads natoms='48' nbeads='1'>
+          <q shape='(1, 144)'>
+           [   1.69055704e+00,   6.15752046e+00,   3.27564197e+00,   1.42394376e+01,  -5.10695650e-04, 
+               4.27561277e+00,   1.26331208e+01,   5.23262945e+00,   1.22563796e+01,  -2.53928349e-01, 
+               1.13787131e+01,   1.09815111e+01,   2.02415914e-01,   6.96941497e+00,   2.09833931e+00, 
+               1.58842399e+01,   5.84783704e-01,   5.34888742e+00,   1.43651199e+01,   4.53385867e+00, 
+               1.32193100e+01,  -1.98256895e+00,   1.08073796e+01,   9.94110257e+00,   2.91377148e+00, 
+               7.65204594e+00,   5.06222354e+00,   1.30489225e+01,   1.53021385e+00,   2.61905905e+00, 
+               1.14158980e+01,   3.79282452e+00,   1.04542243e+01,   7.61550435e-01,   9.77955059e+00, 
+               1.27099358e+01,   2.26939525e+00,   9.63220110e+00,   5.50340720e+00,   1.38011972e+01, 
+               3.37651278e+00,   2.19800027e+00,   1.20074238e+01,   1.89252161e+00,   9.89441290e+00, 
+               4.27014562e-02,   7.87766347e+00,   1.30244507e+01,   4.88440624e+00,   6.64711086e+00, 
+               6.60143113e+00,   1.07769929e+01,   7.37505194e-01,   1.35809757e+00,   9.20907491e+00, 
+               4.73628013e+00,   9.18178726e+00,   3.00272955e+00,   1.04248934e+01,   1.41652081e+01, 
+               6.14755503e+00,   8.08574529e+00,   8.43694289e+00,   6.19235083e+00,   2.37873673e+00, 
+               1.51727670e+01,   8.00229188e+00,   3.27972187e+00,   7.33174641e+00,   7.61952944e+00, 
+               8.81754734e+00,   4.25899190e-01,   5.44261304e+00,   9.94902534e+00,   8.98050002e+00, 
+               6.88728345e+00,   4.31002096e+00,   1.49254292e+01,   8.85406929e+00,   1.49069926e+00, 
+               6.75232284e+00,   6.89752033e+00,   6.93144282e+00,   9.04196431e-01,   8.24626510e+00, 
+               7.19027118e+00,   9.78071378e+00,   4.09631097e+00,   1.58710038e+00,   1.37556233e+01, 
+               5.87201730e+00,   4.21227866e+00,   6.02991493e+00,   9.79209809e+00,   9.53189646e+00, 
+               1.72372564e+00,   4.81349398e+00,   2.89568933e+00,   3.94497944e+00,   1.11647264e+01, 
+               7.96302559e+00,   3.45315921e+00,   9.50421465e+00,   8.55367935e+00,   1.17195864e+01, 
+               3.02739668e+00,   3.13878993e+00,   1.18572744e+01,   5.36582685e+00,   9.94721246e-01, 
+               3.38120831e+00,   1.05750772e+01,   5.97826764e+00,   3.66633160e+00,   8.67977377e+00, 
+               1.03304317e+01,   1.22728165e+01,   3.95336966e+00,   4.89676374e+00,   1.13795680e+01, 
+               2.77613734e+00,   3.80585259e+00,   2.66456542e+00,   1.32585116e+01,   8.86301763e+00, 
+               4.72391111e+00,   1.16113753e+01,   7.65397676e+00,   1.29288223e+01,   9.34133671e-01, 
+               2.45216817e+00,   1.04523311e+01,   1.81019154e+00,   2.63827783e+00,   1.21194060e+00, 
+               1.41295226e+01,   7.57906227e+00,   6.12871792e+00,   1.25366723e+01,   8.74748591e+00, 
+               1.44190866e+01,   8.41458598e-02,   3.67081503e+00,   9.07430567e+00 ]
+          </q>
+          <p shape='(1, 144)'>
+           [   4.22398903e-01,  -5.01696114e-01,   2.28727962e+00,   9.98450433e-01,   6.68506356e-01, 
+              -2.60129869e+00,   5.33935273e-01,   1.33362910e+00,  -3.25968559e+00,  -4.04636532e+00, 
+              -1.55955418e+00,   1.54609840e+00,   1.05843493e+00,   6.07420088e-01,   5.01494990e-01, 
+              -8.04937816e-01,   1.01249140e+00,   9.88205074e-01,  -3.39911380e-01,   1.35262993e-02, 
+               1.12986640e+00,  -1.42582215e+00,   1.83479478e-01,   2.39107535e-01,  -1.71291390e+00, 
+              -2.21643660e+00,  -2.71368248e-01,   4.43993876e+00,  -5.49379392e+00,   3.96370429e+00, 
+              -1.57525980e+00,  -9.30484683e-01,  -1.81542240e+00,  -2.98627555e-01,   9.59833427e-01, 
+               3.67284739e+00,  -3.88591584e-01,  -8.17937759e-01,   4.60756506e-01,  -4.65013728e-01, 
+              -5.79161346e-01,  -3.97924969e-01,  -2.16816431e-01,  -1.08025535e+00,   1.88641470e+00, 
+              -1.32687251e-01,  -9.12793167e-01,  -5.16106098e-01,  -3.57750254e+00,  -3.72150513e+00, 
+              -4.81302670e+00,   4.39564061e+00,   3.21211418e+00,  -2.81634009e+00,   5.49428873e-01, 
+              -8.92100327e-01,   2.46588976e+00,  -5.53696357e-01,   9.49725744e-01,   8.65390388e-01, 
+               3.97310855e+00,   2.89092531e+00,  -3.64910411e+00,  -3.23716773e+00,   1.02718835e-02, 
+              -4.56512114e+00,   3.56758500e+00,   1.19822291e+00,   2.14281399e+00,   2.40618489e+00, 
+               2.27199040e+00,  -3.93742992e-01,  -4.72387634e-02,  -6.51128021e-01,   6.65945194e-01, 
+              -3.63630737e-01,  -1.46094352e+00,   8.80631121e-01,  -3.88750018e-01,   3.18222034e-01, 
+              -1.01644503e+00,   2.53390185e-01,   1.11069312e+00,  -1.06936424e+00,   4.01274470e-01, 
+               4.27560770e+00,   5.95344364e-02,  -4.63904428e-01,  -1.83923701e+00,   1.33815193e+00, 
+              -6.50437913e+00,  -8.01644935e+00,   3.77661896e+00,   9.45464413e-01,   4.50819936e+00, 
+               2.06334173e-01,   8.48461360e-01,   4.65969149e+00,   2.08875287e+00,   4.64308373e+00, 
+               1.59987650e+00,  -4.21496309e-01,   3.92750955e+00,   5.82271477e-01,  -1.86257946e+00, 
+              -5.39507446e+00,   7.86921218e-01,  -8.18130197e-01,   1.94565563e-01,  -3.94298575e-01, 
+              -8.87500059e-02,  -6.54909192e-02,  -6.83720838e-01,   3.25608476e-01,   1.44102341e+00, 
+              -2.49127625e-01,   9.39773894e-01,   5.93569902e-01,   2.35233222e-02,   9.60315200e-02, 
+               1.00385861e-01,  -1.06286358e+00,  -2.80524753e-01,  -3.21900803e+00,  -2.19610508e+00, 
+              -3.33375501e+00,   9.18365577e-01,   1.40894594e+00,   3.14675510e+00,  -1.63274375e+00, 
+              -1.20909840e+00,  -1.15061887e+00,   1.20735474e+00,   3.02403968e-01,   2.20108258e-01, 
+              -4.73300837e-01,  -2.09849347e-01,  -4.43904516e-01,   4.06380314e-01,   1.52172173e+00, 
+               8.33569363e-02,  -8.97100667e-01,   2.68325495e-01,  -3.92762486e-01 ]
+          </p>
+          <m shape='(48)'>
+           [   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+               1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   2.18941669e+04,   2.18941669e+04, 
+               2.18941669e+04,   2.18941669e+04,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03, 
+               1.83736223e+03,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04, 
+               2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+               1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   2.18941669e+04,   2.18941669e+04, 
+               2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04, 
+               2.18941669e+04,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03, 
+               2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+               1.83736223e+03,   1.83736223e+03,   1.83736223e+03 ]
+          </m>
+          <names shape='(48)'>
+           [ C, C, C, C, H, 
+             H, H, H, C, C, 
+             C, C, H, H, H, 
+             H, C, C, C, C, 
+             C, C, C, C, H, 
+             H, H, H, C, C, 
+             C, C, C, C, C, 
+             C, H, H, H, H, 
+             C, C, C, C, H, 
+             H, H, H ]
+          </names>
+       </beads>
+       <cell shape='(3, 3)'>
+        [   1.75512091e+01,   6.93140125e-16,  -3.44793457e+00,   0.00000000e+00,   1.13198373e+01, 
+            1.18457840e-15,   0.00000000e+00,   0.00000000e+00,   1.55192968e+01 ]
+       </cell>
+    </system>
+ </simulation>
+  ---  end input file content  ---
+ @SOCKET:   Client asked for connection from . Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ # Average timings at MD step   50000. t/step: 2.63288e+01
+ # Average timings at MD step   50100. t/step: 1.02867e-01
+ # Average timings at MD step   50200. t/step: 5.74046e-02
+ # Average timings at MD step   50300. t/step: 5.70326e-02
+ # Average timings at MD step   50400. t/step: 5.71527e-02
+ # Average timings at MD step   50500. t/step: 5.64832e-02
+ # Average timings at MD step   50600. t/step: 5.67833e-02
+ # Average timings at MD step   50700. t/step: 5.67248e-02
+ # Average timings at MD step   50800. t/step: 5.63883e-02
+ # Average timings at MD step   50900. t/step: 5.57909e-02
+ # Average timings at MD step   51000. t/step: 5.58954e-02
+ # Average timings at MD step   51100. t/step: 5.63564e-02
+ # Average timings at MD step   51200. t/step: 5.75570e-02
+ # Average timings at MD step   51300. t/step: 5.61866e-02
+ # Average timings at MD step   51400. t/step: 5.71282e-02
+ # Average timings at MD step   51500. t/step: 5.67156e-02
+ # Average timings at MD step   51600. t/step: 5.62197e-02
+ # Average timings at MD step   51700. t/step: 5.65548e-02
+ # Average timings at MD step   51800. t/step: 5.64619e-02
+ # Average timings at MD step   51900. t/step: 5.69872e-02
+ # Average timings at MD step   52000. t/step: 5.65621e-02
+ # Average timings at MD step   52100. t/step: 5.65564e-02
+ # Average timings at MD step   52200. t/step: 5.63544e-02
+ # Average timings at MD step   52300. t/step: 5.53129e-02
+ # Average timings at MD step   52400. t/step: 5.42906e-02
+ # Average timings at MD step   52500. t/step: 5.47743e-02
+ # Average timings at MD step   52600. t/step: 5.50587e-02
+ # Average timings at MD step   52700. t/step: 5.48504e-02
+ # Average timings at MD step   52800. t/step: 5.54448e-02
+ # Average timings at MD step   52900. t/step: 5.43347e-02
+ # Average timings at MD step   53000. t/step: 5.38510e-02
+ # Average timings at MD step   53100. t/step: 5.43364e-02
+ # Average timings at MD step   53200. t/step: 5.36118e-02
+ # Average timings at MD step   53300. t/step: 5.43064e-02
+ # Average timings at MD step   53400. t/step: 5.52189e-02
+ # Average timings at MD step   53500. t/step: 5.37511e-02
+ # Average timings at MD step   53600. t/step: 5.39590e-02
+ # Average timings at MD step   53700. t/step: 5.57116e-02
+ # Average timings at MD step   53800. t/step: 5.43957e-02
+ # Average timings at MD step   53900. t/step: 5.56816e-02
+ # Average timings at MD step   54000. t/step: 5.46196e-02
+ # Average timings at MD step   54100. t/step: 5.50185e-02
+ # Average timings at MD step   54200. t/step: 5.49620e-02
+ # Average timings at MD step   54300. t/step: 5.61468e-02
+ # Average timings at MD step   54400. t/step: 5.52990e-02
+ # Average timings at MD step   54500. t/step: 5.53943e-02
+ # Average timings at MD step   54600. t/step: 5.45867e-02
+ # Average timings at MD step   54700. t/step: 5.52829e-02
+ # Average timings at MD step   54800. t/step: 5.48062e-02
+ # Average timings at MD step   54900. t/step: 5.53600e-02
+ # Average timings at MD step   55000. t/step: 5.45446e-02
+ # Average timings at MD step   55100. t/step: 5.41435e-02
+ # Average timings at MD step   55200. t/step: 5.52005e-02
+ # Average timings at MD step   55300. t/step: 5.45016e-02
+ # Average timings at MD step   55400. t/step: 5.53078e-02
+ # Average timings at MD step   55500. t/step: 5.47465e-02
+ # Average timings at MD step   55600. t/step: 5.52594e-02
+ # Average timings at MD step   55700. t/step: 5.47826e-02
+ # Average timings at MD step   55800. t/step: 5.30107e-02
+ # Average timings at MD step   55900. t/step: 5.51113e-02
+ # Average timings at MD step   56000. t/step: 5.27017e-02
+ # Average timings at MD step   56100. t/step: 5.42032e-02
+ # Average timings at MD step   56200. t/step: 5.49744e-02
+ # Average timings at MD step   56300. t/step: 5.37299e-02
+ # Average timings at MD step   56400. t/step: 5.41263e-02
+ # Average timings at MD step   56500. t/step: 5.41245e-02
+ # Average timings at MD step   56600. t/step: 5.45998e-02
+ # Average timings at MD step   56700. t/step: 5.47977e-02
+ # Average timings at MD step   56800. t/step: 5.46294e-02
+ # Average timings at MD step   56900. t/step: 5.43077e-02
+ # Average timings at MD step   57000. t/step: 5.56368e-02
+ # Average timings at MD step   57100. t/step: 5.40378e-02
+ # Average timings at MD step   57200. t/step: 5.46356e-02
+ # Average timings at MD step   57300. t/step: 5.49706e-02
+ # Average timings at MD step   57400. t/step: 5.68530e-02
+ # Average timings at MD step   57500. t/step: 5.65308e-02
+ # Average timings at MD step   57600. t/step: 5.65894e-02
+ # Average timings at MD step   57700. t/step: 5.61641e-02
+ # Average timings at MD step   57800. t/step: 5.58762e-02
+ # Average timings at MD step   57900. t/step: 5.67287e-02
+ # Average timings at MD step   58000. t/step: 5.56819e-02
+ # Average timings at MD step   58100. t/step: 5.56314e-02
+ # Average timings at MD step   58200. t/step: 5.68935e-02
+ # Average timings at MD step   58300. t/step: 5.62126e-02
+ # Average timings at MD step   58400. t/step: 5.62142e-02
+ # Average timings at MD step   58500. t/step: 5.47790e-02
+ # Average timings at MD step   58600. t/step: 5.65786e-02
+ # Average timings at MD step   58700. t/step: 5.60095e-02
+ # Average timings at MD step   58800. t/step: 5.63499e-02
+ # Average timings at MD step   58900. t/step: 5.57172e-02
+ # Average timings at MD step   59000. t/step: 5.57810e-02
+ # Average timings at MD step   59100. t/step: 5.58532e-02
+ # Average timings at MD step   59200. t/step: 5.48028e-02
+ # Average timings at MD step   59300. t/step: 5.58802e-02
+ # Average timings at MD step   59400. t/step: 5.59231e-02
+ # Average timings at MD step   59500. t/step: 5.53948e-02
+ # Average timings at MD step   59600. t/step: 5.68822e-02
+ # Average timings at MD step   59700. t/step: 5.62831e-02
+ # Average timings at MD step   59800. t/step: 5.73012e-02
+ # Average timings at MD step   59900. t/step: 5.62664e-02
+ # Average timings at MD step   60000. t/step: 5.64307e-02
+ # Average timings at MD step   60100. t/step: 5.57906e-02
+ # Average timings at MD step   60200. t/step: 5.55117e-02
+ # Average timings at MD step   60300. t/step: 5.71523e-02
+ # Average timings at MD step   60400. t/step: 5.57436e-02
+ # Average timings at MD step   60500. t/step: 5.59679e-02
+ # Average timings at MD step   60600. t/step: 5.69149e-02
+ # Average timings at MD step   60700. t/step: 5.65402e-02
+ # Average timings at MD step   60800. t/step: 5.68263e-02
+ # Average timings at MD step   60900. t/step: 5.57473e-02
+ # Average timings at MD step   61000. t/step: 5.73172e-02
+ # Average timings at MD step   61100. t/step: 5.63982e-02
+ # Average timings at MD step   61200. t/step: 5.58280e-02
+ # Average timings at MD step   61300. t/step: 5.64227e-02
+ # Average timings at MD step   61400. t/step: 5.66406e-02
+ # Average timings at MD step   61500. t/step: 5.63147e-02
+ # Average timings at MD step   61600. t/step: 5.60666e-02
+ # Average timings at MD step   61700. t/step: 5.64320e-02
+ # Average timings at MD step   61800. t/step: 5.55615e-02
+ # Average timings at MD step   61900. t/step: 5.59900e-02
+ # Average timings at MD step   62000. t/step: 5.66353e-02
+ # Average timings at MD step   62100. t/step: 5.62223e-02
+ # Average timings at MD step   62200. t/step: 5.58959e-02
+ # Average timings at MD step   62300. t/step: 5.66473e-02
+ # Average timings at MD step   62400. t/step: 5.67225e-02
+ # Average timings at MD step   62500. t/step: 5.57506e-02
+ # Average timings at MD step   62600. t/step: 5.58327e-02
+ # Average timings at MD step   62700. t/step: 5.63989e-02
+ # Average timings at MD step   62800. t/step: 5.60584e-02
+ # Average timings at MD step   62900. t/step: 5.66186e-02
+ # Average timings at MD step   63000. t/step: 5.57850e-02
+ # Average timings at MD step   63100. t/step: 5.63718e-02
+ # Average timings at MD step   63200. t/step: 5.66523e-02
+ # Average timings at MD step   63300. t/step: 5.62859e-02
+ # Average timings at MD step   63400. t/step: 5.64051e-02
+ # Average timings at MD step   63500. t/step: 5.56554e-02
+ # Average timings at MD step   63600. t/step: 5.62783e-02
+ # Average timings at MD step   63700. t/step: 5.67030e-02
+ # Average timings at MD step   63800. t/step: 5.59085e-02
+ # Average timings at MD step   63900. t/step: 5.63177e-02
+ # Average timings at MD step   64000. t/step: 5.66192e-02
+ # Average timings at MD step   64100. t/step: 5.71758e-02
+ # Average timings at MD step   64200. t/step: 5.55324e-02
+ # Average timings at MD step   64300. t/step: 5.54831e-02
+ # Average timings at MD step   64400. t/step: 5.59582e-02
+ # Average timings at MD step   64500. t/step: 5.60888e-02
+ # Average timings at MD step   64600. t/step: 5.61462e-02
+ # Average timings at MD step   64700. t/step: 5.56199e-02
+ # Average timings at MD step   64800. t/step: 5.61845e-02
+ # Average timings at MD step   64900. t/step: 5.62971e-02
+ # Average timings at MD step   65000. t/step: 5.61724e-02
+ # Average timings at MD step   65100. t/step: 5.66755e-02
+ # Average timings at MD step   65200. t/step: 5.62613e-02
+ # Average timings at MD step   65300. t/step: 5.64425e-02
+ # Average timings at MD step   65400. t/step: 5.57279e-02
+ # Average timings at MD step   65500. t/step: 5.66720e-02
+ # Average timings at MD step   65600. t/step: 5.66797e-02
+ # Average timings at MD step   65700. t/step: 5.57182e-02
+ # Average timings at MD step   65800. t/step: 5.62101e-02
+ # Average timings at MD step   65900. t/step: 5.50508e-02
+ # Average timings at MD step   66000. t/step: 5.56676e-02
+ # Average timings at MD step   66100. t/step: 5.71553e-02
+ # Average timings at MD step   66200. t/step: 5.62867e-02
+ # Average timings at MD step   66300. t/step: 5.69590e-02
+ # Average timings at MD step   66400. t/step: 5.64665e-02
+ # Average timings at MD step   66500. t/step: 5.58093e-02
+ # Average timings at MD step   66600. t/step: 5.62157e-02
+ # Average timings at MD step   66700. t/step: 5.65524e-02
+ # Average timings at MD step   66800. t/step: 5.68368e-02
+ # Average timings at MD step   66900. t/step: 5.69714e-02
+ # Average timings at MD step   67000. t/step: 5.61550e-02
+ # Average timings at MD step   67100. t/step: 5.66236e-02
+ # Average timings at MD step   67200. t/step: 5.64154e-02
+ # Average timings at MD step   67300. t/step: 5.64863e-02
+ # Average timings at MD step   67400. t/step: 5.60693e-02
+ # Average timings at MD step   67500. t/step: 5.67678e-02
+ # Average timings at MD step   67600. t/step: 5.67851e-02
+ # Average timings at MD step   67700. t/step: 5.52755e-02
+ # Average timings at MD step   67800. t/step: 5.65036e-02
+ # Average timings at MD step   67900. t/step: 5.50324e-02
+ # Average timings at MD step   68000. t/step: 5.67564e-02
+ # Average timings at MD step   68100. t/step: 5.71766e-02
+ # Average timings at MD step   68200. t/step: 5.72697e-02
+ # Average timings at MD step   68300. t/step: 5.67756e-02
+ # Average timings at MD step   68400. t/step: 5.64817e-02
+ # Average timings at MD step   68500. t/step: 5.61248e-02
+ # Average timings at MD step   68600. t/step: 5.68783e-02
+ # Average timings at MD step   68700. t/step: 5.65733e-02
+ # Average timings at MD step   68800. t/step: 5.62657e-02
+ # Average timings at MD step   68900. t/step: 5.63185e-02
+ # Average timings at MD step   69000. t/step: 5.62101e-02
+ # Average timings at MD step   69100. t/step: 5.59799e-02
+ # Average timings at MD step   69200. t/step: 5.61254e-02
+ # Average timings at MD step   69300. t/step: 5.64235e-02
+ # Average timings at MD step   69400. t/step: 5.51695e-02
+ # Average timings at MD step   69500. t/step: 5.65466e-02
+ # Average timings at MD step   69600. t/step: 5.57544e-02
+ # Average timings at MD step   69700. t/step: 5.68886e-02
+ # Average timings at MD step   69800. t/step: 5.60272e-02
+ # Average timings at MD step   69900. t/step: 5.68230e-02
+ # Average timings at MD step   70000. t/step: 5.66936e-02
+ # Average timings at MD step   70100. t/step: 5.58294e-02
+ # Average timings at MD step   70200. t/step: 5.58752e-02
+ # Average timings at MD step   70300. t/step: 5.67092e-02
+ # Average timings at MD step   70400. t/step: 5.62480e-02
+ # Average timings at MD step   70500. t/step: 5.66578e-02
+ # Average timings at MD step   70600. t/step: 5.64402e-02
+ # Average timings at MD step   70700. t/step: 5.59060e-02
+ # Average timings at MD step   70800. t/step: 5.57064e-02
+ # Average timings at MD step   70900. t/step: 5.76587e-02
+ # Average timings at MD step   71000. t/step: 5.59797e-02
+ # Average timings at MD step   71100. t/step: 5.63896e-02
+ # Average timings at MD step   71200. t/step: 5.60754e-02
+ # Average timings at MD step   71300. t/step: 5.59485e-02
+ # Average timings at MD step   71400. t/step: 5.56749e-02
+ # Average timings at MD step   71500. t/step: 5.68551e-02
+ # Average timings at MD step   71600. t/step: 5.64201e-02
+ # Average timings at MD step   71700. t/step: 5.42749e-02
+ # Average timings at MD step   71800. t/step: 5.65836e-02
+ # Average timings at MD step   71900. t/step: 5.63670e-02
+ # Average timings at MD step   72000. t/step: 5.65690e-02
+ # Average timings at MD step   72100. t/step: 5.64112e-02
+ # Average timings at MD step   72200. t/step: 5.57270e-02
+ # Average timings at MD step   72300. t/step: 5.53749e-02
+ # Average timings at MD step   72400. t/step: 5.52271e-02
+ # Average timings at MD step   72500. t/step: 5.65153e-02
+ # Average timings at MD step   72600. t/step: 5.59388e-02
+ # Average timings at MD step   72700. t/step: 5.65221e-02
+ # Average timings at MD step   72800. t/step: 5.52971e-02
+ # Average timings at MD step   72900. t/step: 5.56806e-02
+ # Average timings at MD step   73000. t/step: 5.63410e-02
+ # Average timings at MD step   73100. t/step: 5.61948e-02
+ # Average timings at MD step   73200. t/step: 5.57392e-02
+ # Average timings at MD step   73300. t/step: 5.66814e-02
+ # Average timings at MD step   73400. t/step: 5.59175e-02
+ # Average timings at MD step   73500. t/step: 5.61660e-02
+ # Average timings at MD step   73600. t/step: 5.63705e-02
+ # Average timings at MD step   73700. t/step: 5.66293e-02
+ # Average timings at MD step   73800. t/step: 5.56102e-02
+ # Average timings at MD step   73900. t/step: 5.67180e-02
+ # Average timings at MD step   74000. t/step: 5.59790e-02
+ # Average timings at MD step   74100. t/step: 5.67882e-02
+ # Average timings at MD step   74200. t/step: 5.80295e-02
+ # Average timings at MD step   74300. t/step: 5.49707e-02
+ # Average timings at MD step   74400. t/step: 5.63968e-02
+ # Average timings at MD step   74500. t/step: 5.55183e-02
+ # Average timings at MD step   74600. t/step: 5.57461e-02
+ # Average timings at MD step   74700. t/step: 5.62784e-02
+ # Average timings at MD step   74800. t/step: 5.57481e-02
+ # Average timings at MD step   74900. t/step: 5.66052e-02
+ # Average timings at MD step   75000. t/step: 5.68578e-02
+ # Average timings at MD step   75100. t/step: 5.55814e-02
+ # Average timings at MD step   75200. t/step: 5.55187e-02
+ # Average timings at MD step   75300. t/step: 5.61925e-02
+ # Average timings at MD step   75400. t/step: 5.65895e-02
+ # Average timings at MD step   75500. t/step: 5.62072e-02
+ # Average timings at MD step   75600. t/step: 5.63257e-02
+ # Average timings at MD step   75700. t/step: 5.58342e-02
+ # Average timings at MD step   75800. t/step: 5.62601e-02
+ # Average timings at MD step   75900. t/step: 5.61744e-02
+ # Average timings at MD step   76000. t/step: 5.61519e-02
+ # Average timings at MD step   76100. t/step: 5.57915e-02
+ # Average timings at MD step   76200. t/step: 5.64901e-02
+ # Average timings at MD step   76300. t/step: 5.69820e-02
+ # Average timings at MD step   76400. t/step: 5.68756e-02
+ # Average timings at MD step   76500. t/step: 5.54858e-02
+ # Average timings at MD step   76600. t/step: 5.62163e-02
+ # Average timings at MD step   76700. t/step: 5.66253e-02
+ # Average timings at MD step   76800. t/step: 5.58906e-02
+ # Average timings at MD step   76900. t/step: 5.62482e-02
+ # Average timings at MD step   77000. t/step: 5.65830e-02
+ # Average timings at MD step   77100. t/step: 5.56834e-02
+ # Average timings at MD step   77200. t/step: 5.66006e-02
+ # Average timings at MD step   77300. t/step: 5.65121e-02
+ # Average timings at MD step   77400. t/step: 5.60584e-02
+ # Average timings at MD step   77500. t/step: 5.60951e-02
+ # Average timings at MD step   77600. t/step: 5.68324e-02
+ # Average timings at MD step   77700. t/step: 5.59375e-02
+ # Average timings at MD step   77800. t/step: 5.57818e-02
+ # Average timings at MD step   77900. t/step: 5.58265e-02
+ # Average timings at MD step   78000. t/step: 5.59171e-02
+ # Average timings at MD step   78100. t/step: 5.64668e-02
+ # Average timings at MD step   78200. t/step: 5.62967e-02
+ # Average timings at MD step   78300. t/step: 5.59702e-02
+ # Average timings at MD step   78400. t/step: 5.58791e-02
+ # Average timings at MD step   78500. t/step: 5.72073e-02
+ # Average timings at MD step   78600. t/step: 5.58551e-02
+ # Average timings at MD step   78700. t/step: 5.65703e-02
+ # Average timings at MD step   78800. t/step: 5.59521e-02
+ # Average timings at MD step   78900. t/step: 5.64335e-02
+ # Average timings at MD step   79000. t/step: 5.57310e-02
+ # Average timings at MD step   79100. t/step: 5.61840e-02
+ # Average timings at MD step   79200. t/step: 5.54947e-02
+ # Average timings at MD step   79300. t/step: 5.58043e-02
+ # Average timings at MD step   79400. t/step: 5.52671e-02
+ # Average timings at MD step   79500. t/step: 5.56476e-02
+ # Average timings at MD step   79600. t/step: 5.59359e-02
+ # Average timings at MD step   79700. t/step: 5.57126e-02
+ # Average timings at MD step   79800. t/step: 5.67875e-02
+ # Average timings at MD step   79900. t/step: 5.59456e-02
+ # Average timings at MD step   80000. t/step: 5.64844e-02
+ # Average timings at MD step   80100. t/step: 5.58258e-02
+ # Average timings at MD step   80200. t/step: 5.56784e-02
+ # Average timings at MD step   80300. t/step: 5.71275e-02
+ # Average timings at MD step   80400. t/step: 5.62494e-02
+ # Average timings at MD step   80500. t/step: 5.67146e-02
+ # Average timings at MD step   80600. t/step: 5.54183e-02
+ # Average timings at MD step   80700. t/step: 5.69251e-02
+ # Average timings at MD step   80800. t/step: 5.54646e-02
+ # Average timings at MD step   80900. t/step: 5.63978e-02
+ # Average timings at MD step   81000. t/step: 5.55449e-02
+ # Average timings at MD step   81100. t/step: 5.49770e-02
+ # Average timings at MD step   81200. t/step: 5.59106e-02
+ # Average timings at MD step   81300. t/step: 5.52908e-02
+ # Average timings at MD step   81400. t/step: 5.50447e-02
+ # Average timings at MD step   81500. t/step: 5.62668e-02
+ # Average timings at MD step   81600. t/step: 5.61808e-02
+ # Average timings at MD step   81700. t/step: 5.50368e-02
+ # Average timings at MD step   81800. t/step: 5.59664e-02
+ # Average timings at MD step   81900. t/step: 5.60305e-02
+ # Average timings at MD step   82000. t/step: 5.68109e-02
+ # Average timings at MD step   82100. t/step: 5.69681e-02
+ # Average timings at MD step   82200. t/step: 5.53679e-02
+ # Average timings at MD step   82300. t/step: 5.54128e-02
+ # Average timings at MD step   82400. t/step: 5.61140e-02
+ # Average timings at MD step   82500. t/step: 5.58547e-02
+ # Average timings at MD step   82600. t/step: 5.56571e-02
+ # Average timings at MD step   82700. t/step: 5.69357e-02
+ # Average timings at MD step   82800. t/step: 5.67344e-02
+ # Average timings at MD step   82900. t/step: 5.63467e-02
+ # Average timings at MD step   83000. t/step: 5.66283e-02
+ # Average timings at MD step   83100. t/step: 5.63802e-02
+ # Average timings at MD step   83200. t/step: 5.66257e-02
+ # Average timings at MD step   83300. t/step: 5.58641e-02
+ # Average timings at MD step   83400. t/step: 5.69927e-02
+ # Average timings at MD step   83500. t/step: 5.57018e-02
+ # Average timings at MD step   83600. t/step: 5.65698e-02
+ # Average timings at MD step   83700. t/step: 5.53267e-02
+ # Average timings at MD step   83800. t/step: 5.63838e-02
+ # Average timings at MD step   83900. t/step: 5.70908e-02
+ # Average timings at MD step   84000. t/step: 5.65547e-02
+ # Average timings at MD step   84100. t/step: 5.63786e-02
+ # Average timings at MD step   84200. t/step: 5.62237e-02
+ # Average timings at MD step   84300. t/step: 5.65397e-02
+ # Average timings at MD step   84400. t/step: 5.62874e-02
+ # Average timings at MD step   84500. t/step: 5.67138e-02
+ # Average timings at MD step   84600. t/step: 5.65806e-02
+ # Average timings at MD step   84700. t/step: 5.59651e-02
+ # Average timings at MD step   84800. t/step: 5.58966e-02
+ # Average timings at MD step   84900. t/step: 5.58465e-02
+ # Average timings at MD step   85000. t/step: 5.55666e-02
+ # Average timings at MD step   85100. t/step: 5.53938e-02
+ # Average timings at MD step   85200. t/step: 5.62670e-02
+ # Average timings at MD step   85300. t/step: 5.57354e-02
+ # Average timings at MD step   85400. t/step: 5.69030e-02
+ # Average timings at MD step   85500. t/step: 5.61320e-02
+ # Average timings at MD step   85600. t/step: 5.61828e-02
+ # Average timings at MD step   85700. t/step: 5.62837e-02
+ # Average timings at MD step   85800. t/step: 5.54057e-02
+ # Average timings at MD step   85900. t/step: 5.62385e-02
+ # Average timings at MD step   86000. t/step: 5.57690e-02
+ # Average timings at MD step   86100. t/step: 5.67052e-02
+ # Average timings at MD step   86200. t/step: 5.72278e-02
+ # Average timings at MD step   86300. t/step: 5.65016e-02
+ # Average timings at MD step   86400. t/step: 5.62496e-02
+ # Average timings at MD step   86500. t/step: 5.65382e-02
+ # Average timings at MD step   86600. t/step: 5.63468e-02
+ # Average timings at MD step   86700. t/step: 5.65089e-02
+ # Average timings at MD step   86800. t/step: 5.57952e-02
+ # Average timings at MD step   86900. t/step: 5.67147e-02
+ # Average timings at MD step   87000. t/step: 5.58641e-02
+ # Average timings at MD step   87100. t/step: 5.53154e-02
+ # Average timings at MD step   87200. t/step: 5.67627e-02
+ # Average timings at MD step   87300. t/step: 5.65258e-02
+ # Average timings at MD step   87400. t/step: 5.69359e-02
+ # Average timings at MD step   87500. t/step: 5.63632e-02
+ # Average timings at MD step   87600. t/step: 5.66197e-02
+ # Average timings at MD step   87700. t/step: 5.63405e-02
+ # Average timings at MD step   87800. t/step: 5.71364e-02
+ # Average timings at MD step   87900. t/step: 5.62732e-02
+ # Average timings at MD step   88000. t/step: 5.61299e-02
+ # Average timings at MD step   88100. t/step: 5.69327e-02
+ # Average timings at MD step   88200. t/step: 5.71079e-02
+ # Average timings at MD step   88300. t/step: 5.57481e-02
+ # Average timings at MD step   88400. t/step: 5.65795e-02
+ # Average timings at MD step   88500. t/step: 5.59918e-02
+ # Average timings at MD step   88600. t/step: 5.68981e-02
+ # Average timings at MD step   88700. t/step: 5.63896e-02
+ # Average timings at MD step   88800. t/step: 5.61347e-02
+ # Average timings at MD step   88900. t/step: 5.62416e-02
+ # Average timings at MD step   89000. t/step: 5.51672e-02
+ # Average timings at MD step   89100. t/step: 5.56755e-02
+ # Average timings at MD step   89200. t/step: 5.54095e-02
+ # Average timings at MD step   89300. t/step: 5.54212e-02
+ # Average timings at MD step   89400. t/step: 5.52498e-02
+ # Average timings at MD step   89500. t/step: 5.65194e-02
+ # Average timings at MD step   89600. t/step: 5.63831e-02
+ # Average timings at MD step   89700. t/step: 5.54901e-02
+ # Average timings at MD step   89800. t/step: 5.62538e-02
+ # Average timings at MD step   89900. t/step: 5.53429e-02
+ # Average timings at MD step   90000. t/step: 5.69007e-02
+ # Average timings at MD step   90100. t/step: 5.70061e-02
+ # Average timings at MD step   90200. t/step: 5.65517e-02
+ # Average timings at MD step   90300. t/step: 5.58124e-02
+ # Average timings at MD step   90400. t/step: 5.66173e-02
+ # Average timings at MD step   90500. t/step: 5.65945e-02
+ # Average timings at MD step   90600. t/step: 5.57047e-02
+ # Average timings at MD step   90700. t/step: 5.68704e-02
+ # Average timings at MD step   90800. t/step: 5.66498e-02
+ # Average timings at MD step   90900. t/step: 5.57687e-02
+ # Average timings at MD step   91000. t/step: 5.55305e-02
+ # Average timings at MD step   91100. t/step: 5.63297e-02
+ # Average timings at MD step   91200. t/step: 5.58049e-02
+ # Average timings at MD step   91300. t/step: 5.56584e-02
+ # Average timings at MD step   91400. t/step: 5.61341e-02
+ # Average timings at MD step   91500. t/step: 5.61621e-02
+ # Average timings at MD step   91600. t/step: 5.62745e-02
+ # Average timings at MD step   91700. t/step: 5.63910e-02
+ # Average timings at MD step   91800. t/step: 5.49121e-02
+ # Average timings at MD step   91900. t/step: 5.60181e-02
+ # Average timings at MD step   92000. t/step: 5.65924e-02
+ # Average timings at MD step   92100. t/step: 5.56937e-02
+ # Average timings at MD step   92200. t/step: 5.59815e-02
+ # Average timings at MD step   92300. t/step: 5.67958e-02
+ # Average timings at MD step   92400. t/step: 5.63417e-02
+ # Average timings at MD step   92500. t/step: 5.68551e-02
+ # Average timings at MD step   92600. t/step: 5.68102e-02
+ # Average timings at MD step   92700. t/step: 5.63442e-02
+ # Average timings at MD step   92800. t/step: 5.65153e-02
+ # Average timings at MD step   92900. t/step: 5.59476e-02
+ # Average timings at MD step   93000. t/step: 5.57078e-02
+ # Average timings at MD step   93100. t/step: 5.72805e-02
+ # Average timings at MD step   93200. t/step: 5.64548e-02
+ # Average timings at MD step   93300. t/step: 5.63338e-02
+ # Average timings at MD step   93400. t/step: 5.54064e-02
+ # Average timings at MD step   93500. t/step: 5.61739e-02
+ # Average timings at MD step   93600. t/step: 5.53608e-02
+ # Average timings at MD step   93700. t/step: 5.58856e-02
+ # Average timings at MD step   93800. t/step: 5.65480e-02
+ # Average timings at MD step   93900. t/step: 5.60939e-02
+ # Average timings at MD step   94000. t/step: 5.69913e-02
+ # Average timings at MD step   94100. t/step: 5.55611e-02
+ # Average timings at MD step   94200. t/step: 5.62258e-02
+ # Average timings at MD step   94300. t/step: 5.65836e-02
+ # Average timings at MD step   94400. t/step: 5.58468e-02
+ # Average timings at MD step   94500. t/step: 5.54081e-02
+ # Average timings at MD step   94600. t/step: 5.69632e-02
+ # Average timings at MD step   94700. t/step: 5.66653e-02
+ # Average timings at MD step   94800. t/step: 6.05884e-02
+ # Average timings at MD step   94900. t/step: 5.65414e-02
+ # Average timings at MD step   95000. t/step: 5.77962e-02
+ # Average timings at MD step   95100. t/step: 5.55517e-02
+ # Average timings at MD step   95200. t/step: 5.59031e-02
+ # Average timings at MD step   95300. t/step: 5.71760e-02
+ # Average timings at MD step   95400. t/step: 5.57685e-02
+ # Average timings at MD step   95500. t/step: 5.63330e-02
+ # Average timings at MD step   95600. t/step: 5.66112e-02
+ # Average timings at MD step   95700. t/step: 5.65934e-02
+ # Average timings at MD step   95800. t/step: 5.64150e-02
+ # Average timings at MD step   95900. t/step: 5.61746e-02
+ # Average timings at MD step   96000. t/step: 5.69710e-02
+ # Average timings at MD step   96100. t/step: 5.55813e-02
+ # Average timings at MD step   96200. t/step: 5.62230e-02
+ # Average timings at MD step   96300. t/step: 5.68951e-02
+ # Average timings at MD step   96400. t/step: 5.65842e-02
+ # Average timings at MD step   96500. t/step: 5.50947e-02
+ # Average timings at MD step   96600. t/step: 5.60986e-02
+ # Average timings at MD step   96700. t/step: 5.66099e-02
+ # Average timings at MD step   96800. t/step: 5.57792e-02
+ # Average timings at MD step   96900. t/step: 5.81885e-02
+ # Average timings at MD step   97000. t/step: 5.68743e-02
+ # Average timings at MD step   97100. t/step: 5.65671e-02
+ # Average timings at MD step   97200. t/step: 5.63551e-02
+ # Average timings at MD step   97300. t/step: 5.62698e-02
+ # Average timings at MD step   97400. t/step: 5.70441e-02
+ # Average timings at MD step   97500. t/step: 5.65953e-02
+ # Average timings at MD step   97600. t/step: 5.69325e-02
+ # Average timings at MD step   97700. t/step: 5.74184e-02
+ # Average timings at MD step   97800. t/step: 5.53632e-02
+ # Average timings at MD step   97900. t/step: 5.51452e-02
+ # Average timings at MD step   98000. t/step: 5.77692e-02
+ # Average timings at MD step   98100. t/step: 6.11016e-02
+ # Average timings at MD step   98200. t/step: 5.77744e-02
+ # Average timings at MD step   98300. t/step: 5.58228e-02
+ # Average timings at MD step   98400. t/step: 5.59537e-02
+ # Average timings at MD step   98500. t/step: 5.76179e-02
+ # Average timings at MD step   98600. t/step: 5.65307e-02
+ # Average timings at MD step   98700. t/step: 5.65494e-02
+ # Average timings at MD step   98800. t/step: 5.54471e-02
+ # Average timings at MD step   98900. t/step: 5.61483e-02
+ # Average timings at MD step   99000. t/step: 5.56599e-02
+ # Average timings at MD step   99100. t/step: 5.57984e-02
+ # Average timings at MD step   99200. t/step: 5.59640e-02
+ # Average timings at MD step   99300. t/step: 5.63276e-02
+ # Average timings at MD step   99400. t/step: 5.48840e-02
+ # Average timings at MD step   99500. t/step: 5.57362e-02
+ # Average timings at MD step   99600. t/step: 5.63742e-02
+ # Average timings at MD step   99700. t/step: 5.59907e-02
+ # Average timings at MD step   99800. t/step: 5.58097e-02
+ # Average timings at MD step   99900. t/step: 5.63374e-02
+ # Average timings at MD step  100000. t/step: 5.65875e-02
+ # Average timings at MD step  100100. t/step: 5.60623e-02
+ # Average timings at MD step  100200. t/step: 5.56969e-02
+ # Average timings at MD step  100300. t/step: 5.63935e-02
+ # Average timings at MD step  100400. t/step: 5.55408e-02
+ # Average timings at MD step  100500. t/step: 5.60845e-02
+ # Average timings at MD step  100600. t/step: 5.69655e-02
+ # Average timings at MD step  100700. t/step: 5.60871e-02
+ # Average timings at MD step  100800. t/step: 5.63908e-02
+ # Average timings at MD step  100900. t/step: 5.58105e-02
+ # Average timings at MD step  101000. t/step: 5.63051e-02
+ # Average timings at MD step  101100. t/step: 5.60472e-02
+ # Average timings at MD step  101200. t/step: 5.66889e-02
+ # Average timings at MD step  101300. t/step: 5.59018e-02
+ # Average timings at MD step  101400. t/step: 5.60400e-02
+ # Average timings at MD step  101500. t/step: 5.56378e-02
+ # Average timings at MD step  101600. t/step: 5.62872e-02
+ # Average timings at MD step  101700. t/step: 5.56406e-02
+ # Average timings at MD step  101800. t/step: 5.56752e-02
+ # Average timings at MD step  101900. t/step: 5.55167e-02
+ # Average timings at MD step  102000. t/step: 5.61970e-02
+ # Average timings at MD step  102100. t/step: 5.58774e-02
+ # Average timings at MD step  102200. t/step: 5.55180e-02
+ # Average timings at MD step  102300. t/step: 5.63912e-02
+ # Average timings at MD step  102400. t/step: 5.62923e-02
+ # Average timings at MD step  102500. t/step: 5.65988e-02
+ # Average timings at MD step  102600. t/step: 5.57597e-02
+ # Average timings at MD step  102700. t/step: 5.62914e-02
+ # Average timings at MD step  102800. t/step: 5.60155e-02
+ # Average timings at MD step  102900. t/step: 5.54954e-02
+ # Average timings at MD step  103000. t/step: 5.56493e-02
+ # Average timings at MD step  103100. t/step: 5.63619e-02
+ # Average timings at MD step  103200. t/step: 5.72100e-02
+ # Average timings at MD step  103300. t/step: 5.61573e-02
+ # Average timings at MD step  103400. t/step: 5.64362e-02
+ # Average timings at MD step  103500. t/step: 5.60474e-02
+ # Average timings at MD step  103600. t/step: 5.62253e-02
+ # Average timings at MD step  103700. t/step: 5.66524e-02
+ # Average timings at MD step  103800. t/step: 5.67533e-02
+ # Average timings at MD step  103900. t/step: 5.67964e-02
+ # Average timings at MD step  104000. t/step: 5.59304e-02
+ # Average timings at MD step  104100. t/step: 5.57949e-02
+ # Average timings at MD step  104200. t/step: 5.61145e-02
+ # Average timings at MD step  104300. t/step: 5.63161e-02
+ # Average timings at MD step  104400. t/step: 5.67452e-02
+ # Average timings at MD step  104500. t/step: 5.69153e-02
+ # Average timings at MD step  104600. t/step: 5.58945e-02
+ # Average timings at MD step  104700. t/step: 5.67313e-02
+ # Average timings at MD step  104800. t/step: 5.69654e-02
+ # Average timings at MD step  104900. t/step: 5.65294e-02
+ # Average timings at MD step  105000. t/step: 5.65005e-02
+ # Average timings at MD step  105100. t/step: 5.64796e-02
+ # Average timings at MD step  105200. t/step: 5.60486e-02
+ # Average timings at MD step  105300. t/step: 5.60006e-02
+ # Average timings at MD step  105400. t/step: 5.71455e-02
+ # Average timings at MD step  105500. t/step: 5.59706e-02
+ # Average timings at MD step  105600. t/step: 5.69823e-02
+ # Average timings at MD step  105700. t/step: 5.54767e-02
+ # Average timings at MD step  105800. t/step: 5.57937e-02
+ # Average timings at MD step  105900. t/step: 5.58670e-02
+ # Average timings at MD step  106000. t/step: 5.59305e-02
+ # Average timings at MD step  106100. t/step: 5.64437e-02
+ # Average timings at MD step  106200. t/step: 5.58963e-02
+ # Average timings at MD step  106300. t/step: 5.68668e-02
+ # Average timings at MD step  106400. t/step: 5.62715e-02
+ # Average timings at MD step  106500. t/step: 5.59915e-02
+ # Average timings at MD step  106600. t/step: 5.64446e-02
+ # Average timings at MD step  106700. t/step: 5.55247e-02
+ # Average timings at MD step  106800. t/step: 5.66555e-02
+ # Average timings at MD step  106900. t/step: 5.62907e-02
+ # Average timings at MD step  107000. t/step: 5.61402e-02
+ # Average timings at MD step  107100. t/step: 5.56982e-02
+ # Average timings at MD step  107200. t/step: 5.57482e-02
+ # Average timings at MD step  107300. t/step: 5.56655e-02
+ # Average timings at MD step  107400. t/step: 5.60934e-02
+ # Average timings at MD step  107500. t/step: 5.58365e-02
+ # Average timings at MD step  107600. t/step: 5.67367e-02
+ # Average timings at MD step  107700. t/step: 5.53161e-02
+ # Average timings at MD step  107800. t/step: 5.61591e-02
+ # Average timings at MD step  107900. t/step: 5.66996e-02
+ # Average timings at MD step  108000. t/step: 5.64241e-02
+ # Average timings at MD step  108100. t/step: 5.61010e-02
+ # Average timings at MD step  108200. t/step: 5.67601e-02
+ # Average timings at MD step  108300. t/step: 5.48226e-02
+ # Average timings at MD step  108400. t/step: 5.58351e-02
+ # Average timings at MD step  108500. t/step: 5.59354e-02
+ # Average timings at MD step  108600. t/step: 5.63021e-02
+ # Average timings at MD step  108700. t/step: 5.56866e-02
+ # Average timings at MD step  108800. t/step: 5.53895e-02
+ # Average timings at MD step  108900. t/step: 5.63844e-02
+ # Average timings at MD step  109000. t/step: 5.63020e-02
+ # Average timings at MD step  109100. t/step: 5.65347e-02
+ # Average timings at MD step  109200. t/step: 5.55958e-02
+ # Average timings at MD step  109300. t/step: 5.67767e-02
+ # Average timings at MD step  109400. t/step: 5.61497e-02
+ # Average timings at MD step  109500. t/step: 5.55365e-02
+ # Average timings at MD step  109600. t/step: 5.63388e-02
+ # Average timings at MD step  109700. t/step: 5.62893e-02
+ # Average timings at MD step  109800. t/step: 5.63745e-02
+ # Average timings at MD step  109900. t/step: 5.64989e-02
+ # Average timings at MD step  110000. t/step: 5.63158e-02
+ # Average timings at MD step  110100. t/step: 5.57644e-02
+ # Average timings at MD step  110200. t/step: 5.59012e-02
+ # Average timings at MD step  110300. t/step: 5.64982e-02
+ # Average timings at MD step  110400. t/step: 5.68000e-02
+ # Average timings at MD step  110500. t/step: 5.64921e-02
+ # Average timings at MD step  110600. t/step: 5.61356e-02
+ # Average timings at MD step  110700. t/step: 5.65158e-02
+ # Average timings at MD step  110800. t/step: 5.63930e-02
+ # Average timings at MD step  110900. t/step: 5.62207e-02
+ # Average timings at MD step  111000. t/step: 5.60732e-02
+ # Average timings at MD step  111100. t/step: 5.62470e-02
+ # Average timings at MD step  111200. t/step: 5.64762e-02
+ # Average timings at MD step  111300. t/step: 5.57698e-02
+ # Average timings at MD step  111400. t/step: 5.62308e-02
+ # Average timings at MD step  111500. t/step: 5.47418e-02
+ # Average timings at MD step  111600. t/step: 5.56963e-02
+ # Average timings at MD step  111700. t/step: 5.65718e-02
+ # Average timings at MD step  111800. t/step: 5.64549e-02
+ # Average timings at MD step  111900. t/step: 5.60759e-02
+ # Average timings at MD step  112000. t/step: 5.56332e-02
+ # Average timings at MD step  112100. t/step: 5.51184e-02
+ # Average timings at MD step  112200. t/step: 5.52746e-02
+ # Average timings at MD step  112300. t/step: 5.50168e-02
+ # Average timings at MD step  112400. t/step: 5.59343e-02
+ # Average timings at MD step  112500. t/step: 5.63086e-02
+ # Average timings at MD step  112600. t/step: 5.64294e-02
+ # Average timings at MD step  112700. t/step: 5.58835e-02
+ # Average timings at MD step  112800. t/step: 5.55795e-02
+ # Average timings at MD step  112900. t/step: 5.55370e-02
+ # Average timings at MD step  113000. t/step: 5.62354e-02
+ # Average timings at MD step  113100. t/step: 5.57210e-02
+ # Average timings at MD step  113200. t/step: 5.49947e-02
+ # Average timings at MD step  113300. t/step: 5.56614e-02
+ # Average timings at MD step  113400. t/step: 5.60509e-02
+ # Average timings at MD step  113500. t/step: 5.58184e-02
+ # Average timings at MD step  113600. t/step: 5.54661e-02
+ # Average timings at MD step  113700. t/step: 5.67586e-02
+ # Average timings at MD step  113800. t/step: 5.73927e-02
+ # Average timings at MD step  113900. t/step: 5.67159e-02
+ # Average timings at MD step  114000. t/step: 5.65472e-02
+ # Average timings at MD step  114100. t/step: 5.54895e-02
+ # Average timings at MD step  114200. t/step: 5.64709e-02
+ # Average timings at MD step  114300. t/step: 5.54663e-02
+ # Average timings at MD step  114400. t/step: 5.62328e-02
+ # Average timings at MD step  114500. t/step: 5.67672e-02
+ # Average timings at MD step  114600. t/step: 5.59417e-02
+ # Average timings at MD step  114700. t/step: 5.63274e-02
+ # Average timings at MD step  114800. t/step: 5.57769e-02
+ # Average timings at MD step  114900. t/step: 5.60699e-02
+ # Average timings at MD step  115000. t/step: 5.57809e-02
+ # Average timings at MD step  115100. t/step: 5.62268e-02
+ # Average timings at MD step  115200. t/step: 5.60379e-02
+ # Average timings at MD step  115300. t/step: 5.60704e-02
+ # Average timings at MD step  115400. t/step: 5.64333e-02
+ # Average timings at MD step  115500. t/step: 5.61893e-02
+ # Average timings at MD step  115600. t/step: 5.62054e-02
+ # Average timings at MD step  115700. t/step: 5.58224e-02
+ # Average timings at MD step  115800. t/step: 5.50733e-02
+ # Average timings at MD step  115900. t/step: 5.66981e-02
+ # Average timings at MD step  116000. t/step: 5.61667e-02
+ # Average timings at MD step  116100. t/step: 5.63484e-02
+ # Average timings at MD step  116200. t/step: 5.59179e-02
+ # Average timings at MD step  116300. t/step: 5.59361e-02
+ # Average timings at MD step  116400. t/step: 5.59629e-02
+ # Average timings at MD step  116500. t/step: 5.66595e-02
+ # Average timings at MD step  116600. t/step: 5.66936e-02
+ # Average timings at MD step  116700. t/step: 5.62933e-02
+ # Average timings at MD step  116800. t/step: 5.55411e-02
+ # Average timings at MD step  116900. t/step: 5.67305e-02
+ # Average timings at MD step  117000. t/step: 5.60770e-02
+ # Average timings at MD step  117100. t/step: 5.73330e-02
+ # Average timings at MD step  117200. t/step: 5.68117e-02
+ # Average timings at MD step  117300. t/step: 5.62503e-02
+ # Average timings at MD step  117400. t/step: 5.67752e-02
+ # Average timings at MD step  117500. t/step: 5.60367e-02
+ # Average timings at MD step  117600. t/step: 5.61157e-02
+ # Average timings at MD step  117700. t/step: 5.61868e-02
+ # Average timings at MD step  117800. t/step: 5.63137e-02
+ # Average timings at MD step  117900. t/step: 5.65547e-02
+ # Average timings at MD step  118000. t/step: 5.56288e-02
+ # Average timings at MD step  118100. t/step: 5.62481e-02
+ # Average timings at MD step  118200. t/step: 5.61454e-02
+ # Average timings at MD step  118300. t/step: 5.58264e-02
+ # Average timings at MD step  118400. t/step: 5.47784e-02
+ # Average timings at MD step  118500. t/step: 5.58908e-02
+ # Average timings at MD step  118600. t/step: 5.58778e-02
+ # Average timings at MD step  118700. t/step: 5.64429e-02
+ # Average timings at MD step  118800. t/step: 5.66361e-02
+ # Average timings at MD step  118900. t/step: 5.46031e-02
+ # Average timings at MD step  119000. t/step: 5.56545e-02
+ # Average timings at MD step  119100. t/step: 5.57654e-02
+ # Average timings at MD step  119200. t/step: 5.57244e-02
+ # Average timings at MD step  119300. t/step: 5.53954e-02
+ # Average timings at MD step  119400. t/step: 5.62590e-02
+ # Average timings at MD step  119500. t/step: 5.54300e-02
+ # Average timings at MD step  119600. t/step: 5.52847e-02
+ # Average timings at MD step  119700. t/step: 5.60808e-02
+ # Average timings at MD step  119800. t/step: 5.64797e-02
+ # Average timings at MD step  119900. t/step: 5.55534e-02
+ # Average timings at MD step  120000. t/step: 5.56604e-02
+ # Average timings at MD step  120100. t/step: 5.54691e-02
+ # Average timings at MD step  120200. t/step: 5.64315e-02
+ # Average timings at MD step  120300. t/step: 5.58602e-02
+ # Average timings at MD step  120400. t/step: 5.69490e-02
+ # Average timings at MD step  120500. t/step: 5.63429e-02
+ # Average timings at MD step  120600. t/step: 5.57644e-02
+ # Average timings at MD step  120700. t/step: 5.54318e-02
+ # Average timings at MD step  120800. t/step: 5.55037e-02
+ # Average timings at MD step  120900. t/step: 5.64898e-02
+ # Average timings at MD step  121000. t/step: 5.59209e-02
+ # Average timings at MD step  121100. t/step: 5.65377e-02
+ # Average timings at MD step  121200. t/step: 5.64264e-02
+ # Average timings at MD step  121300. t/step: 5.61205e-02
+ # Average timings at MD step  121400. t/step: 5.67831e-02
+ # Average timings at MD step  121500. t/step: 5.63634e-02
+ # Average timings at MD step  121600. t/step: 5.57054e-02
+ # Average timings at MD step  121700. t/step: 5.58716e-02
+ # Average timings at MD step  121800. t/step: 5.65235e-02
+ # Average timings at MD step  121900. t/step: 5.60081e-02
+ # Average timings at MD step  122000. t/step: 5.62480e-02
+ # Average timings at MD step  122100. t/step: 5.69069e-02
+ # Average timings at MD step  122200. t/step: 5.68835e-02
+ # Average timings at MD step  122300. t/step: 5.62460e-02
+ # Average timings at MD step  122400. t/step: 5.64950e-02
+ # Average timings at MD step  122500. t/step: 5.54784e-02
+ # Average timings at MD step  122600. t/step: 5.64217e-02
+ # Average timings at MD step  122700. t/step: 5.66147e-02
+ # Average timings at MD step  122800. t/step: 5.66881e-02
+ # Average timings at MD step  122900. t/step: 5.64526e-02
+ # Average timings at MD step  123000. t/step: 5.65364e-02
+ # Average timings at MD step  123100. t/step: 5.49429e-02
+ # Average timings at MD step  123200. t/step: 5.63280e-02
+ # Average timings at MD step  123300. t/step: 5.61947e-02
+ # Average timings at MD step  123400. t/step: 5.70750e-02
+ # Average timings at MD step  123500. t/step: 5.60290e-02
+ # Average timings at MD step  123600. t/step: 5.60465e-02
+ # Average timings at MD step  123700. t/step: 5.71047e-02
+ # Average timings at MD step  123800. t/step: 5.58521e-02
+ # Average timings at MD step  123900. t/step: 5.56553e-02
+ # Average timings at MD step  124000. t/step: 5.60055e-02
+ # Average timings at MD step  124100. t/step: 5.63039e-02
+ # Average timings at MD step  124200. t/step: 5.60485e-02
+ # Average timings at MD step  124300. t/step: 5.60185e-02
+ # Average timings at MD step  124400. t/step: 5.61396e-02
+ # Average timings at MD step  124500. t/step: 5.51528e-02
+ # Average timings at MD step  124600. t/step: 5.66954e-02
+ # Average timings at MD step  124700. t/step: 5.64582e-02
+ # Average timings at MD step  124800. t/step: 5.67304e-02
+ # Average timings at MD step  124900. t/step: 5.59077e-02
+ # Average timings at MD step  125000. t/step: 5.63425e-02
+ # Average timings at MD step  125100. t/step: 5.60643e-02
+ # Average timings at MD step  125200. t/step: 5.67239e-02
+ # Average timings at MD step  125300. t/step: 5.60653e-02
+ # Average timings at MD step  125400. t/step: 5.66435e-02
+ # Average timings at MD step  125500. t/step: 5.64688e-02
+ # Average timings at MD step  125600. t/step: 5.58430e-02
+ # Average timings at MD step  125700. t/step: 5.58919e-02
+ # Average timings at MD step  125800. t/step: 5.59521e-02
+ # Average timings at MD step  125900. t/step: 5.62735e-02
+ # Average timings at MD step  126000. t/step: 5.65318e-02
+ # Average timings at MD step  126100. t/step: 5.69268e-02
+ # Average timings at MD step  126200. t/step: 5.61754e-02
+ # Average timings at MD step  126300. t/step: 5.59681e-02
+ # Average timings at MD step  126400. t/step: 5.57411e-02
+ # Average timings at MD step  126500. t/step: 5.49548e-02
+ # Average timings at MD step  126600. t/step: 5.58505e-02
+ # Average timings at MD step  126700. t/step: 5.54420e-02
+ # Average timings at MD step  126800. t/step: 5.57516e-02
+ # Average timings at MD step  126900. t/step: 5.66421e-02
+ # Average timings at MD step  127000. t/step: 5.66261e-02
+ # Average timings at MD step  127100. t/step: 5.59887e-02
+ # Average timings at MD step  127200. t/step: 5.53687e-02
+ # Average timings at MD step  127300. t/step: 5.66075e-02
+ # Average timings at MD step  127400. t/step: 5.51289e-02
+ # Average timings at MD step  127500. t/step: 5.60074e-02
+ # Average timings at MD step  127600. t/step: 5.61065e-02
+ # Average timings at MD step  127700. t/step: 5.57834e-02
+ # Average timings at MD step  127800. t/step: 5.56999e-02
+ # Average timings at MD step  127900. t/step: 5.57333e-02
+ # Average timings at MD step  128000. t/step: 5.61383e-02
+ # Average timings at MD step  128100. t/step: 5.59700e-02
+ # Average timings at MD step  128200. t/step: 5.58781e-02
+ # Average timings at MD step  128300. t/step: 5.63435e-02
+ # Average timings at MD step  128400. t/step: 5.57118e-02
+ # Average timings at MD step  128500. t/step: 5.47887e-02
+ # Average timings at MD step  128600. t/step: 5.72354e-02
+ # Average timings at MD step  128700. t/step: 5.70259e-02
+ # Average timings at MD step  128800. t/step: 5.65380e-02
+ # Average timings at MD step  128900. t/step: 5.67728e-02
+ # Average timings at MD step  129000. t/step: 5.59010e-02
+ # Average timings at MD step  129100. t/step: 5.61231e-02
+ # Average timings at MD step  129200. t/step: 5.56640e-02
+ # Average timings at MD step  129300. t/step: 5.66472e-02
+ # Average timings at MD step  129400. t/step: 5.64037e-02
+ # Average timings at MD step  129500. t/step: 5.62575e-02
+ # Average timings at MD step  129600. t/step: 5.55218e-02
+ # Average timings at MD step  129700. t/step: 5.62964e-02
+ # Average timings at MD step  129800. t/step: 5.66555e-02
+ # Average timings at MD step  129900. t/step: 5.62707e-02
+ # Average timings at MD step  130000. t/step: 5.63028e-02
+ # Average timings at MD step  130100. t/step: 5.62275e-02
+ # Average timings at MD step  130200. t/step: 5.59928e-02
+ # Average timings at MD step  130300. t/step: 5.67475e-02
+ # Average timings at MD step  130400. t/step: 5.56586e-02
+ # Average timings at MD step  130500. t/step: 5.64985e-02
+ # Average timings at MD step  130600. t/step: 5.60240e-02
+ # Average timings at MD step  130700. t/step: 5.56530e-02
+ # Average timings at MD step  130800. t/step: 5.62559e-02
+ # Average timings at MD step  130900. t/step: 5.67465e-02
+ # Average timings at MD step  131000. t/step: 5.64831e-02
+ # Average timings at MD step  131100. t/step: 5.57365e-02
+ # Average timings at MD step  131200. t/step: 5.66855e-02
+ # Average timings at MD step  131300. t/step: 5.72028e-02
+ # Average timings at MD step  131400. t/step: 5.68444e-02
+ # Average timings at MD step  131500. t/step: 5.61626e-02
+ # Average timings at MD step  131600. t/step: 5.66282e-02
+ # Average timings at MD step  131700. t/step: 5.58555e-02
+ # Average timings at MD step  131800. t/step: 5.64130e-02
+ # Average timings at MD step  131900. t/step: 5.65558e-02
+ # Average timings at MD step  132000. t/step: 5.58483e-02
+ # Average timings at MD step  132100. t/step: 5.62036e-02
+ # Average timings at MD step  132200. t/step: 5.60907e-02
+ # Average timings at MD step  132300. t/step: 5.60160e-02
+ # Average timings at MD step  132400. t/step: 5.63076e-02
+ # Average timings at MD step  132500. t/step: 5.65581e-02
+ # Average timings at MD step  132600. t/step: 5.63657e-02
+ # Average timings at MD step  132700. t/step: 5.63814e-02
+ # Average timings at MD step  132800. t/step: 5.69711e-02
+ # Average timings at MD step  132900. t/step: 5.60867e-02
+ # Average timings at MD step  133000. t/step: 5.69791e-02
+ # Average timings at MD step  133100. t/step: 5.52766e-02
+ # Average timings at MD step  133200. t/step: 5.57200e-02
+ # Average timings at MD step  133300. t/step: 5.57277e-02
+ # Average timings at MD step  133400. t/step: 5.62037e-02
+ # Average timings at MD step  133500. t/step: 5.55679e-02
+ # Average timings at MD step  133600. t/step: 5.67323e-02
+ # Average timings at MD step  133700. t/step: 5.63862e-02
+ # Average timings at MD step  133800. t/step: 5.60993e-02
+ # Average timings at MD step  133900. t/step: 5.71225e-02
+ # Average timings at MD step  134000. t/step: 5.62560e-02
+ # Average timings at MD step  134100. t/step: 5.63628e-02
+ # Average timings at MD step  134200. t/step: 5.61219e-02
+ # Average timings at MD step  134300. t/step: 5.66242e-02
+ # Average timings at MD step  134400. t/step: 5.66750e-02
+ # Average timings at MD step  134500. t/step: 5.50429e-02
+ # Average timings at MD step  134600. t/step: 5.53352e-02
+ # Average timings at MD step  134700. t/step: 5.63990e-02
+ # Average timings at MD step  134800. t/step: 5.62460e-02
+ # Average timings at MD step  134900. t/step: 5.56213e-02
+ # Average timings at MD step  135000. t/step: 5.56619e-02
+ # Average timings at MD step  135100. t/step: 5.58733e-02
+ # Average timings at MD step  135200. t/step: 5.67364e-02
+ # Average timings at MD step  135300. t/step: 5.57879e-02
+ # Average timings at MD step  135400. t/step: 5.61310e-02
+ # Average timings at MD step  135500. t/step: 5.64879e-02
+ # Average timings at MD step  135600. t/step: 5.63657e-02
+ # Average timings at MD step  135700. t/step: 5.55620e-02
+ # Average timings at MD step  135800. t/step: 5.62654e-02
+ # Average timings at MD step  135900. t/step: 5.60536e-02
+ # Average timings at MD step  136000. t/step: 5.58277e-02
+ # Average timings at MD step  136100. t/step: 5.57884e-02
+ # Average timings at MD step  136200. t/step: 5.60102e-02
+ # Average timings at MD step  136300. t/step: 5.59563e-02
+ # Average timings at MD step  136400. t/step: 5.61428e-02
+ # Average timings at MD step  136500. t/step: 5.61619e-02
+ # Average timings at MD step  136600. t/step: 5.64017e-02
+ # Average timings at MD step  136700. t/step: 5.55766e-02
+ # Average timings at MD step  136800. t/step: 5.53096e-02
+ # Average timings at MD step  136900. t/step: 5.63976e-02
+ # Average timings at MD step  137000. t/step: 5.59172e-02
+ # Average timings at MD step  137100. t/step: 5.64096e-02
+ # Average timings at MD step  137200. t/step: 5.66976e-02
+ # Average timings at MD step  137300. t/step: 5.70411e-02
+ # Average timings at MD step  137400. t/step: 5.61470e-02
+ # Average timings at MD step  137500. t/step: 5.52586e-02
+ # Average timings at MD step  137600. t/step: 5.53349e-02
+ # Average timings at MD step  137700. t/step: 5.60985e-02
+ # Average timings at MD step  137800. t/step: 5.53003e-02
+ # Average timings at MD step  137900. t/step: 5.61446e-02
+ # Average timings at MD step  138000. t/step: 5.54996e-02
+ # Average timings at MD step  138100. t/step: 5.60727e-02
+ # Average timings at MD step  138200. t/step: 5.59523e-02
+ # Average timings at MD step  138300. t/step: 5.71510e-02
+ # Average timings at MD step  138400. t/step: 5.62415e-02
+ # Average timings at MD step  138500. t/step: 5.60767e-02
+ # Average timings at MD step  138600. t/step: 5.55474e-02
+ # Average timings at MD step  138700. t/step: 5.60532e-02
+ # Average timings at MD step  138800. t/step: 5.62195e-02
+ # Average timings at MD step  138900. t/step: 5.47665e-02
+ # Average timings at MD step  139000. t/step: 5.59551e-02
+ # Average timings at MD step  139100. t/step: 5.59159e-02
+ # Average timings at MD step  139200. t/step: 5.57500e-02
+ # Average timings at MD step  139300. t/step: 5.60055e-02
+ # Average timings at MD step  139400. t/step: 5.63685e-02
+ # Average timings at MD step  139500. t/step: 5.59056e-02
+ # Average timings at MD step  139600. t/step: 5.56950e-02
+ # Average timings at MD step  139700. t/step: 5.64218e-02
+ # Average timings at MD step  139800. t/step: 5.64438e-02
+ # Average timings at MD step  139900. t/step: 5.66912e-02
+ # Average timings at MD step  140000. t/step: 5.62037e-02
+ # Average timings at MD step  140100. t/step: 5.62741e-02
+ # Average timings at MD step  140200. t/step: 5.58262e-02
+ # Average timings at MD step  140300. t/step: 5.54968e-02
+ # Average timings at MD step  140400. t/step: 5.51682e-02
+ # Average timings at MD step  140500. t/step: 5.61930e-02
+ # Average timings at MD step  140600. t/step: 5.65666e-02
+ # Average timings at MD step  140700. t/step: 5.53610e-02
+ # Average timings at MD step  140800. t/step: 5.65160e-02
+ # Average timings at MD step  140900. t/step: 5.65603e-02
+ # Average timings at MD step  141000. t/step: 5.61925e-02
+ # Average timings at MD step  141100. t/step: 5.63271e-02
+ # Average timings at MD step  141200. t/step: 5.65215e-02
+ # Average timings at MD step  141300. t/step: 5.55852e-02
+ # Average timings at MD step  141400. t/step: 5.62787e-02
+ # Average timings at MD step  141500. t/step: 5.53419e-02
+ # Average timings at MD step  141600. t/step: 5.50051e-02
+ # Average timings at MD step  141700. t/step: 5.52399e-02
+ # Average timings at MD step  141800. t/step: 5.62241e-02
+ # Average timings at MD step  141900. t/step: 5.56693e-02
+ # Average timings at MD step  142000. t/step: 5.47046e-02
+ # Average timings at MD step  142100. t/step: 5.61354e-02
+ # Average timings at MD step  142200. t/step: 5.64021e-02
+ # Average timings at MD step  142300. t/step: 5.51922e-02
+ # Average timings at MD step  142400. t/step: 5.56200e-02
+ # Average timings at MD step  142500. t/step: 5.54569e-02
+ # Average timings at MD step  142600. t/step: 5.65245e-02
+ # Average timings at MD step  142700. t/step: 5.68585e-02
+ # Average timings at MD step  142800. t/step: 5.58173e-02
+ # Average timings at MD step  142900. t/step: 5.48991e-02
+ # Average timings at MD step  143000. t/step: 5.65492e-02
+ # Average timings at MD step  143100. t/step: 5.60989e-02
+ # Average timings at MD step  143200. t/step: 5.55913e-02
+ # Average timings at MD step  143300. t/step: 5.54591e-02
+ # Average timings at MD step  143400. t/step: 5.65552e-02
+ # Average timings at MD step  143500. t/step: 5.55244e-02
+ # Average timings at MD step  143600. t/step: 5.55274e-02
+ # Average timings at MD step  143700. t/step: 5.60344e-02
+ # Average timings at MD step  143800. t/step: 5.56351e-02
+ # Average timings at MD step  143900. t/step: 5.62268e-02
+ # Average timings at MD step  144000. t/step: 5.68205e-02
+ # Average timings at MD step  144100. t/step: 5.62667e-02
+ # Average timings at MD step  144200. t/step: 5.64763e-02
+ # Average timings at MD step  144300. t/step: 5.64807e-02
+ # Average timings at MD step  144400. t/step: 5.63772e-02
+ # Average timings at MD step  144500. t/step: 5.55626e-02
+ # Average timings at MD step  144600. t/step: 5.62320e-02
+ # Average timings at MD step  144700. t/step: 5.63750e-02
+ # Average timings at MD step  144800. t/step: 5.59067e-02
+ # Average timings at MD step  144900. t/step: 5.48877e-02
+ # Average timings at MD step  145000. t/step: 5.57293e-02
+ # Average timings at MD step  145100. t/step: 5.62020e-02
+ # Average timings at MD step  145200. t/step: 5.67357e-02
+ # Average timings at MD step  145300. t/step: 5.63438e-02
+ # Average timings at MD step  145400. t/step: 5.63762e-02
+ # Average timings at MD step  145500. t/step: 5.65925e-02
+ # Average timings at MD step  145600. t/step: 5.58928e-02
+ # Average timings at MD step  145700. t/step: 5.64619e-02
+ # Average timings at MD step  145800. t/step: 5.61740e-02
+ # Average timings at MD step  145900. t/step: 5.52471e-02
+ # Average timings at MD step  146000. t/step: 5.51657e-02
+ # Average timings at MD step  146100. t/step: 5.60829e-02
+ # Average timings at MD step  146200. t/step: 5.56552e-02
+ # Average timings at MD step  146300. t/step: 5.58241e-02
+ # Average timings at MD step  146400. t/step: 5.63641e-02
+ # Average timings at MD step  146500. t/step: 5.70755e-02
+ # Average timings at MD step  146600. t/step: 5.48321e-02
+ # Average timings at MD step  146700. t/step: 5.54161e-02
+ # Average timings at MD step  146800. t/step: 5.57061e-02
+ # Average timings at MD step  146900. t/step: 5.59331e-02
+ # Average timings at MD step  147000. t/step: 5.58935e-02
+ # Average timings at MD step  147100. t/step: 5.59590e-02
+ # Average timings at MD step  147200. t/step: 5.62582e-02
+ # Average timings at MD step  147300. t/step: 5.54048e-02
+ # Average timings at MD step  147400. t/step: 5.63906e-02
+ # Average timings at MD step  147500. t/step: 5.65917e-02
+ # Average timings at MD step  147600. t/step: 5.68446e-02
+ # Average timings at MD step  147700. t/step: 5.62315e-02
+ # Average timings at MD step  147800. t/step: 5.66092e-02
+ # Average timings at MD step  147900. t/step: 5.58373e-02
+ # Average timings at MD step  148000. t/step: 5.62080e-02
+ # Average timings at MD step  148100. t/step: 5.57673e-02
+ # Average timings at MD step  148200. t/step: 5.59032e-02
+ # Average timings at MD step  148300. t/step: 5.61201e-02
+ # Average timings at MD step  148400. t/step: 5.63183e-02
+ # Average timings at MD step  148500. t/step: 5.56256e-02
+ # Average timings at MD step  148600. t/step: 5.57373e-02
+ # Average timings at MD step  148700. t/step: 5.58248e-02
+ # Average timings at MD step  148800. t/step: 5.61107e-02
+ # Average timings at MD step  148900. t/step: 5.59537e-02
+ # Average timings at MD step  149000. t/step: 5.53302e-02
+ # Average timings at MD step  149100. t/step: 5.59521e-02
+ # Average timings at MD step  149200. t/step: 5.44613e-02
+ # Average timings at MD step  149300. t/step: 5.48772e-02
+ # Average timings at MD step  149400. t/step: 5.64455e-02
+ # Average timings at MD step  149500. t/step: 5.56307e-02
+ # Average timings at MD step  149600. t/step: 5.56871e-02
+ # Average timings at MD step  149700. t/step: 5.61918e-02
+ # Average timings at MD step  149800. t/step: 5.63762e-02
+ # Average timings at MD step  149900. t/step: 5.66880e-02
+ # Average timings at MD step  150000. t/step: 5.71857e-02
+ # Average timings at MD step  150100. t/step: 5.60187e-02
+ # Average timings at MD step  150200. t/step: 5.46272e-02
+ # Average timings at MD step  150300. t/step: 5.54312e-02
+ # Average timings at MD step  150400. t/step: 5.56795e-02
+ # Average timings at MD step  150500. t/step: 5.60632e-02
+ # Average timings at MD step  150600. t/step: 5.58847e-02
+ # Average timings at MD step  150700. t/step: 5.56663e-02
+ # Average timings at MD step  150800. t/step: 5.62097e-02
+ # Average timings at MD step  150900. t/step: 5.61956e-02
+ # Average timings at MD step  151000. t/step: 5.53744e-02
+ # Average timings at MD step  151100. t/step: 5.73916e-02
+ # Average timings at MD step  151200. t/step: 5.47736e-02
+ # Average timings at MD step  151300. t/step: 5.63398e-02
+ # Average timings at MD step  151400. t/step: 5.61073e-02
+ # Average timings at MD step  151500. t/step: 5.58886e-02
+ # Average timings at MD step  151600. t/step: 5.63465e-02
+ # Average timings at MD step  151700. t/step: 5.53174e-02
+ # Average timings at MD step  151800. t/step: 5.53818e-02
+ # Average timings at MD step  151900. t/step: 5.57567e-02
+ # Average timings at MD step  152000. t/step: 5.51945e-02
+ # Average timings at MD step  152100. t/step: 5.44379e-02
+ # Average timings at MD step  152200. t/step: 5.67399e-02
+ # Average timings at MD step  152300. t/step: 5.60134e-02
+ # Average timings at MD step  152400. t/step: 5.61806e-02
+ # Average timings at MD step  152500. t/step: 5.64835e-02
+ # Average timings at MD step  152600. t/step: 5.54942e-02
+ # Average timings at MD step  152700. t/step: 5.58751e-02
+ # Average timings at MD step  152800. t/step: 5.64920e-02
+ # Average timings at MD step  152900. t/step: 5.58885e-02
+ # Average timings at MD step  153000. t/step: 5.55429e-02
+ # Average timings at MD step  153100. t/step: 5.61043e-02
+ # Average timings at MD step  153200. t/step: 5.45594e-02
+ # Average timings at MD step  153300. t/step: 5.56455e-02
+ # Average timings at MD step  153400. t/step: 5.58785e-02
+ # Average timings at MD step  153500. t/step: 5.58761e-02
+ # Average timings at MD step  153600. t/step: 5.47155e-02
+ # Average timings at MD step  153700. t/step: 5.54993e-02
+ # Average timings at MD step  153800. t/step: 5.61494e-02
+ # Average timings at MD step  153900. t/step: 5.55757e-02
+ # Average timings at MD step  154000. t/step: 5.71309e-02
+ # Average timings at MD step  154100. t/step: 5.61675e-02
+ # Average timings at MD step  154200. t/step: 5.67548e-02
+ # Average timings at MD step  154300. t/step: 5.61890e-02
+ # Average timings at MD step  154400. t/step: 5.59349e-02
+ # Average timings at MD step  154500. t/step: 5.61676e-02
+ # Average timings at MD step  154600. t/step: 5.52870e-02
+ # Average timings at MD step  154700. t/step: 5.58894e-02
+ # Average timings at MD step  154800. t/step: 5.60470e-02
+ # Average timings at MD step  154900. t/step: 5.55105e-02
+ # Average timings at MD step  155000. t/step: 5.58404e-02
+ # Average timings at MD step  155100. t/step: 5.60838e-02
+ # Average timings at MD step  155200. t/step: 5.58417e-02
+ # Average timings at MD step  155300. t/step: 5.56448e-02
+ # Average timings at MD step  155400. t/step: 5.56179e-02
+ # Average timings at MD step  155500. t/step: 5.51914e-02
+ # Average timings at MD step  155600. t/step: 5.67269e-02
+ # Average timings at MD step  155700. t/step: 5.64631e-02
+ # Average timings at MD step  155800. t/step: 5.61771e-02
+ # Average timings at MD step  155900. t/step: 5.55591e-02
+ # Average timings at MD step  156000. t/step: 5.55185e-02
+ # Average timings at MD step  156100. t/step: 5.57605e-02
+ # Average timings at MD step  156200. t/step: 5.50156e-02
+ # Average timings at MD step  156300. t/step: 5.61426e-02
+ # Average timings at MD step  156400. t/step: 5.52732e-02
+ # Average timings at MD step  156500. t/step: 5.56743e-02
+ # Average timings at MD step  156600. t/step: 5.61401e-02
+ # Average timings at MD step  156700. t/step: 5.55636e-02
+ # Average timings at MD step  156800. t/step: 5.58756e-02
+ # Average timings at MD step  156900. t/step: 5.57834e-02
+ # Average timings at MD step  157000. t/step: 5.58465e-02
+ # Average timings at MD step  157100. t/step: 5.56817e-02
+ # Average timings at MD step  157200. t/step: 5.59379e-02
+ # Average timings at MD step  157300. t/step: 5.59769e-02
+ # Average timings at MD step  157400. t/step: 5.64792e-02
+ # Average timings at MD step  157500. t/step: 5.61377e-02
+ # Average timings at MD step  157600. t/step: 5.70760e-02
+ # Average timings at MD step  157700. t/step: 5.58532e-02
+ # Average timings at MD step  157800. t/step: 5.55379e-02
+ # Average timings at MD step  157900. t/step: 5.62895e-02
+ # Average timings at MD step  158000. t/step: 5.60251e-02
+ # Average timings at MD step  158100. t/step: 5.59650e-02
+ # Average timings at MD step  158200. t/step: 5.59977e-02
+ # Average timings at MD step  158300. t/step: 5.53755e-02
+ # Average timings at MD step  158400. t/step: 5.53251e-02
+ # Average timings at MD step  158500. t/step: 5.63757e-02
+ # Average timings at MD step  158600. t/step: 5.61566e-02
+ # Average timings at MD step  158700. t/step: 5.60287e-02
+ # Average timings at MD step  158800. t/step: 5.49493e-02
+ # Average timings at MD step  158900. t/step: 5.53512e-02
+ # Average timings at MD step  159000. t/step: 5.48410e-02
+ # Average timings at MD step  159100. t/step: 5.61043e-02
+ # Average timings at MD step  159200. t/step: 5.58611e-02
+ # Average timings at MD step  159300. t/step: 5.66706e-02
+ # Average timings at MD step  159400. t/step: 5.66531e-02
+ # Average timings at MD step  159500. t/step: 5.52994e-02
+ # Average timings at MD step  159600. t/step: 5.54434e-02
+ # Average timings at MD step  159700. t/step: 5.54111e-02
+ # Average timings at MD step  159800. t/step: 5.65914e-02
+ # Average timings at MD step  159900. t/step: 5.59464e-02
+ # Average timings at MD step  160000. t/step: 5.54301e-02
+ # Average timings at MD step  160100. t/step: 5.70788e-02
+ # Average timings at MD step  160200. t/step: 5.64251e-02
+ # Average timings at MD step  160300. t/step: 5.53474e-02
+ # Average timings at MD step  160400. t/step: 5.64706e-02
+ # Average timings at MD step  160500. t/step: 5.60457e-02
+ # Average timings at MD step  160600. t/step: 5.60016e-02
+ # Average timings at MD step  160700. t/step: 5.53669e-02
+ # Average timings at MD step  160800. t/step: 5.58790e-02
+ # Average timings at MD step  160900. t/step: 5.53385e-02
+ # Average timings at MD step  161000. t/step: 5.59582e-02
+ # Average timings at MD step  161100. t/step: 5.67056e-02
+ # Average timings at MD step  161200. t/step: 5.60914e-02
+ # Average timings at MD step  161300. t/step: 5.61523e-02
+ # Average timings at MD step  161400. t/step: 5.52335e-02
+ # Average timings at MD step  161500. t/step: 5.50860e-02
+ # Average timings at MD step  161600. t/step: 5.58906e-02
+ # Average timings at MD step  161700. t/step: 5.63204e-02
+ # Average timings at MD step  161800. t/step: 5.63199e-02
+ # Average timings at MD step  161900. t/step: 5.51486e-02
+ # Average timings at MD step  162000. t/step: 5.60905e-02
+ # Average timings at MD step  162100. t/step: 5.56023e-02
+ # Average timings at MD step  162200. t/step: 5.60501e-02
+ # Average timings at MD step  162300. t/step: 5.63609e-02
+ # Average timings at MD step  162400. t/step: 5.46096e-02
+ # Average timings at MD step  162500. t/step: 5.54968e-02
+ # Average timings at MD step  162600. t/step: 5.66454e-02
+ # Average timings at MD step  162700. t/step: 5.57591e-02
+ # Average timings at MD step  162800. t/step: 5.60090e-02
+ # Average timings at MD step  162900. t/step: 5.50438e-02
+ # Average timings at MD step  163000. t/step: 5.62229e-02
+ # Average timings at MD step  163100. t/step: 5.51257e-02
+ # Average timings at MD step  163200. t/step: 5.59344e-02
+ # Average timings at MD step  163300. t/step: 5.63691e-02
+ # Average timings at MD step  163400. t/step: 5.56063e-02
+ # Average timings at MD step  163500. t/step: 5.57010e-02
+ # Average timings at MD step  163600. t/step: 5.67888e-02
+ # Average timings at MD step  163700. t/step: 5.67532e-02
+ # Average timings at MD step  163800. t/step: 5.58351e-02
+ # Average timings at MD step  163900. t/step: 5.55351e-02
+ # Average timings at MD step  164000. t/step: 5.60358e-02
+ # Average timings at MD step  164100. t/step: 5.62277e-02
+ # Average timings at MD step  164200. t/step: 5.64937e-02
+ # Average timings at MD step  164300. t/step: 5.59377e-02
+ # Average timings at MD step  164400. t/step: 5.65247e-02
+ # Average timings at MD step  164500. t/step: 5.63312e-02
+ # Average timings at MD step  164600. t/step: 5.58759e-02
+ # Average timings at MD step  164700. t/step: 5.67881e-02
+ # Average timings at MD step  164800. t/step: 5.61775e-02
+ # Average timings at MD step  164900. t/step: 5.68551e-02
+ # Average timings at MD step  165000. t/step: 5.71376e-02
+ # Average timings at MD step  165100. t/step: 5.65417e-02
+ # Average timings at MD step  165200. t/step: 5.62378e-02
+ # Average timings at MD step  165300. t/step: 5.52259e-02
+ # Average timings at MD step  165400. t/step: 5.59282e-02
+ # Average timings at MD step  165500. t/step: 5.62646e-02
+ # Average timings at MD step  165600. t/step: 5.62673e-02
+ # Average timings at MD step  165700. t/step: 5.52755e-02
+ # Average timings at MD step  165800. t/step: 5.61639e-02
+ # Average timings at MD step  165900. t/step: 5.63189e-02
+ # Average timings at MD step  166000. t/step: 5.55200e-02
+ # Average timings at MD step  166100. t/step: 5.63213e-02
+ # Average timings at MD step  166200. t/step: 5.63789e-02
+ # Average timings at MD step  166300. t/step: 5.57721e-02
+ # Average timings at MD step  166400. t/step: 5.65564e-02
+ # Average timings at MD step  166500. t/step: 5.53044e-02
+ # Average timings at MD step  166600. t/step: 5.72637e-02
+ # Average timings at MD step  166700. t/step: 5.68143e-02
+ # Average timings at MD step  166800. t/step: 5.57048e-02
+ # Average timings at MD step  166900. t/step: 5.47126e-02
+ # Average timings at MD step  167000. t/step: 5.66022e-02
+ # Average timings at MD step  167100. t/step: 5.58687e-02
+ # Average timings at MD step  167200. t/step: 5.50807e-02
+ # Average timings at MD step  167300. t/step: 5.67296e-02
+ # Average timings at MD step  167400. t/step: 5.68058e-02
+ # Average timings at MD step  167500. t/step: 5.61185e-02
+ # Average timings at MD step  167600. t/step: 5.67714e-02
+ # Average timings at MD step  167700. t/step: 5.57130e-02
+ # Average timings at MD step  167800. t/step: 5.64620e-02
+ # Average timings at MD step  167900. t/step: 5.62084e-02
+ # Average timings at MD step  168000. t/step: 5.50180e-02
+ # Average timings at MD step  168100. t/step: 5.49433e-02
+ # Average timings at MD step  168200. t/step: 5.57714e-02
+ # Average timings at MD step  168300. t/step: 5.54504e-02
+ # Average timings at MD step  168400. t/step: 5.50483e-02
+ # Average timings at MD step  168500. t/step: 5.44813e-02
+ # Average timings at MD step  168600. t/step: 5.64818e-02
+ # Average timings at MD step  168700. t/step: 5.52502e-02
+ # Average timings at MD step  168800. t/step: 5.53186e-02
+ # Average timings at MD step  168900. t/step: 5.62580e-02
+ # Average timings at MD step  169000. t/step: 5.53811e-02
+ # Average timings at MD step  169100. t/step: 5.45509e-02
+ # Average timings at MD step  169200. t/step: 5.58449e-02
+ # Average timings at MD step  169300. t/step: 5.60031e-02
+ # Average timings at MD step  169400. t/step: 5.67413e-02
+ # Average timings at MD step  169500. t/step: 5.60964e-02
+ # Average timings at MD step  169600. t/step: 5.58692e-02
+ # Average timings at MD step  169700. t/step: 5.61802e-02
+ # Average timings at MD step  169800. t/step: 5.65130e-02
+ # Average timings at MD step  169900. t/step: 5.55790e-02
+ # Average timings at MD step  170000. t/step: 5.59785e-02
+ # Average timings at MD step  170100. t/step: 5.63514e-02
+ # Average timings at MD step  170200. t/step: 5.57063e-02
+ # Average timings at MD step  170300. t/step: 5.55165e-02
+ # Average timings at MD step  170400. t/step: 5.54186e-02
+ # Average timings at MD step  170500. t/step: 5.64045e-02
+ # Average timings at MD step  170600. t/step: 5.49344e-02
+ # Average timings at MD step  170700. t/step: 5.60719e-02
+ # Average timings at MD step  170800. t/step: 5.40032e-02
+ # Average timings at MD step  170900. t/step: 5.62269e-02
+ # Average timings at MD step  171000. t/step: 5.62398e-02
+ # Average timings at MD step  171100. t/step: 5.55757e-02
+ # Average timings at MD step  171200. t/step: 5.59146e-02
+ # Average timings at MD step  171300. t/step: 5.59497e-02
+ # Average timings at MD step  171400. t/step: 5.56563e-02
+ # Average timings at MD step  171500. t/step: 5.59575e-02
+ # Average timings at MD step  171600. t/step: 5.48888e-02
+ # Average timings at MD step  171700. t/step: 5.55084e-02
+ # Average timings at MD step  171800. t/step: 5.60830e-02
+ # Average timings at MD step  171900. t/step: 5.53681e-02
+ # Average timings at MD step  172000. t/step: 5.61173e-02
+ # Average timings at MD step  172100. t/step: 5.56595e-02
+ # Average timings at MD step  172200. t/step: 5.50061e-02
+ # Average timings at MD step  172300. t/step: 5.60984e-02
+ # Average timings at MD step  172400. t/step: 5.58149e-02
+ # Average timings at MD step  172500. t/step: 5.61591e-02
+ # Average timings at MD step  172600. t/step: 5.54690e-02
+ # Average timings at MD step  172700. t/step: 5.63059e-02
+ # Average timings at MD step  172800. t/step: 5.54978e-02
+ # Average timings at MD step  172900. t/step: 5.55183e-02
+ # Average timings at MD step  173000. t/step: 5.57406e-02
+ # Average timings at MD step  173100. t/step: 5.64523e-02
+ # Average timings at MD step  173200. t/step: 5.55614e-02
+ # Average timings at MD step  173300. t/step: 5.59933e-02
+ # Average timings at MD step  173400. t/step: 5.66832e-02
+ # Average timings at MD step  173500. t/step: 5.62153e-02
+ # Average timings at MD step  173600. t/step: 5.67169e-02
+ # Average timings at MD step  173700. t/step: 5.61818e-02
+ # Average timings at MD step  173800. t/step: 5.55835e-02
+ # Average timings at MD step  173900. t/step: 5.57899e-02
+ # Average timings at MD step  174000. t/step: 5.54638e-02
+ # Average timings at MD step  174100. t/step: 5.52403e-02
+ # Average timings at MD step  174200. t/step: 5.61518e-02
+ # Average timings at MD step  174300. t/step: 5.73793e-02
+ # Average timings at MD step  174400. t/step: 5.57465e-02
+ # Average timings at MD step  174500. t/step: 5.49566e-02
+ # Average timings at MD step  174600. t/step: 5.53817e-02
+ # Average timings at MD step  174700. t/step: 5.36241e-02
+ # Average timings at MD step  174800. t/step: 5.63452e-02
+ # Average timings at MD step  174900. t/step: 5.57414e-02
+ # Average timings at MD step  175000. t/step: 5.50740e-02
+ # Average timings at MD step  175100. t/step: 5.52217e-02
+ # Average timings at MD step  175200. t/step: 5.49465e-02
+ # Average timings at MD step  175300. t/step: 5.60732e-02
+ # Average timings at MD step  175400. t/step: 5.54729e-02
+ # Average timings at MD step  175500. t/step: 5.64623e-02
+ # Average timings at MD step  175600. t/step: 5.68470e-02
+ # Average timings at MD step  175700. t/step: 5.61345e-02
+ # Average timings at MD step  175800. t/step: 5.63324e-02
+ # Average timings at MD step  175900. t/step: 5.61194e-02
+ # Average timings at MD step  176000. t/step: 5.63736e-02
+ # Average timings at MD step  176100. t/step: 5.57390e-02
+ # Average timings at MD step  176200. t/step: 5.61679e-02
+ # Average timings at MD step  176300. t/step: 5.61721e-02
+ # Average timings at MD step  176400. t/step: 5.56024e-02
+ # Average timings at MD step  176500. t/step: 5.66087e-02
+ # Average timings at MD step  176600. t/step: 5.51069e-02
+ # Average timings at MD step  176700. t/step: 5.60965e-02
+ # Average timings at MD step  176800. t/step: 5.58612e-02
+ # Average timings at MD step  176900. t/step: 5.66200e-02
+ # Average timings at MD step  177000. t/step: 5.59800e-02
+ # Average timings at MD step  177100. t/step: 5.63002e-02
+ # Average timings at MD step  177200. t/step: 5.59668e-02
+ # Average timings at MD step  177300. t/step: 5.59460e-02
+ # Average timings at MD step  177400. t/step: 5.60118e-02
+ # Average timings at MD step  177500. t/step: 5.61595e-02
+ # Average timings at MD step  177600. t/step: 5.65975e-02
+ # Average timings at MD step  177700. t/step: 5.65268e-02
+ # Average timings at MD step  177800. t/step: 5.52757e-02
+ # Average timings at MD step  177900. t/step: 5.60133e-02
+ # Average timings at MD step  178000. t/step: 5.63117e-02
+ # Average timings at MD step  178100. t/step: 5.53939e-02
+ # Average timings at MD step  178200. t/step: 5.60308e-02
+ # Average timings at MD step  178300. t/step: 5.56569e-02
+ # Average timings at MD step  178400. t/step: 5.60176e-02
+ # Average timings at MD step  178500. t/step: 5.50722e-02
+ # Average timings at MD step  178600. t/step: 5.62527e-02
+ # Average timings at MD step  178700. t/step: 5.60145e-02
+ # Average timings at MD step  178800. t/step: 5.54778e-02
+ # Average timings at MD step  178900. t/step: 5.54720e-02
+ # Average timings at MD step  179000. t/step: 5.68966e-02
+ # Average timings at MD step  179100. t/step: 5.48563e-02
+ # Average timings at MD step  179200. t/step: 5.50448e-02
+ # Average timings at MD step  179300. t/step: 5.63150e-02
+ # Average timings at MD step  179400. t/step: 5.59435e-02
+ # Average timings at MD step  179500. t/step: 5.55531e-02
+ # Average timings at MD step  179600. t/step: 5.61152e-02
+ # Average timings at MD step  179700. t/step: 5.63890e-02
+ # Average timings at MD step  179800. t/step: 5.53806e-02
+ # Average timings at MD step  179900. t/step: 5.59531e-02
+ # Average timings at MD step  180000. t/step: 5.51723e-02
+ # Average timings at MD step  180100. t/step: 5.62672e-02
+ # Average timings at MD step  180200. t/step: 5.64098e-02
+ # Average timings at MD step  180300. t/step: 5.72414e-02
+ # Average timings at MD step  180400. t/step: 5.58131e-02
+ # Average timings at MD step  180500. t/step: 5.63216e-02
+ # Average timings at MD step  180600. t/step: 5.55650e-02
+ # Average timings at MD step  180700. t/step: 5.56656e-02
+ # Average timings at MD step  180800. t/step: 5.62279e-02
+ # Average timings at MD step  180900. t/step: 5.50788e-02
+ # Average timings at MD step  181000. t/step: 5.56193e-02
+ # Average timings at MD step  181100. t/step: 5.67142e-02
+ # Average timings at MD step  181200. t/step: 5.54842e-02
+ # Average timings at MD step  181300. t/step: 5.63762e-02
+ # Average timings at MD step  181400. t/step: 5.51374e-02
+ # Average timings at MD step  181500. t/step: 5.57653e-02
+ # Average timings at MD step  181600. t/step: 5.52988e-02
+ # Average timings at MD step  181700. t/step: 5.51746e-02
+ # Average timings at MD step  181800. t/step: 5.59738e-02
+ # Average timings at MD step  181900. t/step: 5.54559e-02
+ # Average timings at MD step  182000. t/step: 5.61931e-02
+ # Average timings at MD step  182100. t/step: 5.64645e-02
+ # Average timings at MD step  182200. t/step: 5.47552e-02
+ # Average timings at MD step  182300. t/step: 5.67381e-02
+ # Average timings at MD step  182400. t/step: 5.55239e-02
+ # Average timings at MD step  182500. t/step: 5.49856e-02
+ # Average timings at MD step  182600. t/step: 5.58833e-02
+ # Average timings at MD step  182700. t/step: 5.56138e-02
+ # Average timings at MD step  182800. t/step: 5.46374e-02
+ # Average timings at MD step  182900. t/step: 5.64041e-02
+ # Average timings at MD step  183000. t/step: 5.56056e-02
+ # Average timings at MD step  183100. t/step: 5.49037e-02
+ # Average timings at MD step  183200. t/step: 5.59877e-02
+ # Average timings at MD step  183300. t/step: 5.60914e-02
+ # Average timings at MD step  183400. t/step: 5.65963e-02
+ # Average timings at MD step  183500. t/step: 5.63271e-02
+ # Average timings at MD step  183600. t/step: 5.58521e-02
+ # Average timings at MD step  183700. t/step: 5.60679e-02
+ # Average timings at MD step  183800. t/step: 5.62542e-02
+ # Average timings at MD step  183900. t/step: 5.54714e-02
+ # Average timings at MD step  184000. t/step: 5.60082e-02
+ # Average timings at MD step  184100. t/step: 5.67478e-02
+ # Average timings at MD step  184200. t/step: 5.58136e-02
+ # Average timings at MD step  184300. t/step: 5.61606e-02
+ # Average timings at MD step  184400. t/step: 5.53193e-02
+ # Average timings at MD step  184500. t/step: 5.59765e-02
+ # Average timings at MD step  184600. t/step: 5.60688e-02
+ # Average timings at MD step  184700. t/step: 5.59552e-02
+ # Average timings at MD step  184800. t/step: 5.61055e-02
+ # Average timings at MD step  184900. t/step: 5.57211e-02
+ # Average timings at MD step  185000. t/step: 5.51424e-02
+ # Average timings at MD step  185100. t/step: 5.54420e-02
+ # Average timings at MD step  185200. t/step: 5.55811e-02
+ # Average timings at MD step  185300. t/step: 5.53113e-02
+ # Average timings at MD step  185400. t/step: 5.56740e-02
+ # Average timings at MD step  185500. t/step: 5.45951e-02
+ # Average timings at MD step  185600. t/step: 5.66414e-02
+ # Average timings at MD step  185700. t/step: 5.62362e-02
+ # Average timings at MD step  185800. t/step: 5.66606e-02
+ # Average timings at MD step  185900. t/step: 5.55825e-02
+ # Average timings at MD step  186000. t/step: 5.65587e-02
+ # Average timings at MD step  186100. t/step: 5.58458e-02
+ # Average timings at MD step  186200. t/step: 5.52631e-02
+ # Average timings at MD step  186300. t/step: 5.63716e-02
+ # Average timings at MD step  186400. t/step: 5.61364e-02
+ # Average timings at MD step  186500. t/step: 5.55610e-02
+ # Average timings at MD step  186600. t/step: 5.64502e-02
+ # Average timings at MD step  186700. t/step: 5.56475e-02
+ # Average timings at MD step  186800. t/step: 5.51215e-02
+ # Average timings at MD step  186900. t/step: 5.56823e-02
+ # Average timings at MD step  187000. t/step: 5.65192e-02
+ # Average timings at MD step  187100. t/step: 5.58379e-02
+ # Average timings at MD step  187200. t/step: 5.56790e-02
+ # Average timings at MD step  187300. t/step: 5.54265e-02
+ # Average timings at MD step  187400. t/step: 5.59659e-02
+ # Average timings at MD step  187500. t/step: 5.56280e-02
+ # Average timings at MD step  187600. t/step: 5.58621e-02
+ # Average timings at MD step  187700. t/step: 5.64148e-02
+ # Average timings at MD step  187800. t/step: 5.53921e-02
+ # Average timings at MD step  187900. t/step: 5.56183e-02
+ # Average timings at MD step  188000. t/step: 5.48408e-02
+ # Average timings at MD step  188100. t/step: 5.62468e-02
+ # Average timings at MD step  188200. t/step: 5.57692e-02
+ # Average timings at MD step  188300. t/step: 5.61580e-02
+ # Average timings at MD step  188400. t/step: 5.61308e-02
+ # Average timings at MD step  188500. t/step: 5.64047e-02
+ # Average timings at MD step  188600. t/step: 5.57712e-02
+ # Average timings at MD step  188700. t/step: 5.51483e-02
+ # Average timings at MD step  188800. t/step: 5.52160e-02
+ # Average timings at MD step  188900. t/step: 5.57148e-02
+ # Average timings at MD step  189000. t/step: 5.63419e-02
+ # Average timings at MD step  189100. t/step: 5.54816e-02
+ # Average timings at MD step  189200. t/step: 5.58781e-02
+ # Average timings at MD step  189300. t/step: 5.52403e-02
+ # Average timings at MD step  189400. t/step: 5.62970e-02
+ # Average timings at MD step  189500. t/step: 5.63020e-02
+ # Average timings at MD step  189600. t/step: 5.60465e-02
+ # Average timings at MD step  189700. t/step: 5.51040e-02
+ # Average timings at MD step  189800. t/step: 5.59022e-02
+ # Average timings at MD step  189900. t/step: 5.58740e-02
+ # Average timings at MD step  190000. t/step: 5.55050e-02
+ # Average timings at MD step  190100. t/step: 5.64318e-02
+ # Average timings at MD step  190200. t/step: 5.70899e-02
+ # Average timings at MD step  190300. t/step: 5.59398e-02
+ # Average timings at MD step  190400. t/step: 5.56932e-02
+ # Average timings at MD step  190500. t/step: 5.62611e-02
+ # Average timings at MD step  190600. t/step: 5.56335e-02
+ # Average timings at MD step  190700. t/step: 5.58463e-02
+ # Average timings at MD step  190800. t/step: 5.50393e-02
+ # Average timings at MD step  190900. t/step: 5.48962e-02
+ # Average timings at MD step  191000. t/step: 5.64448e-02
+ # Average timings at MD step  191100. t/step: 5.64313e-02
+ # Average timings at MD step  191200. t/step: 5.62082e-02
+ # Average timings at MD step  191300. t/step: 5.60134e-02
+ # Average timings at MD step  191400. t/step: 5.59577e-02
+ # Average timings at MD step  191500. t/step: 5.63026e-02
+ # Average timings at MD step  191600. t/step: 5.61511e-02
+ # Average timings at MD step  191700. t/step: 5.57354e-02
+ # Average timings at MD step  191800. t/step: 5.54266e-02
+ # Average timings at MD step  191900. t/step: 5.56159e-02
+ # Average timings at MD step  192000. t/step: 5.59922e-02
+ # Average timings at MD step  192100. t/step: 5.58709e-02
+ # Average timings at MD step  192200. t/step: 5.62443e-02
+ # Average timings at MD step  192300. t/step: 5.58920e-02
+ # Average timings at MD step  192400. t/step: 5.55943e-02
+ # Average timings at MD step  192500. t/step: 5.56478e-02
+ # Average timings at MD step  192600. t/step: 5.67846e-02
+ # Average timings at MD step  192700. t/step: 5.55119e-02
+ # Average timings at MD step  192800. t/step: 5.67989e-02
+ # Average timings at MD step  192900. t/step: 5.48925e-02
+ # Average timings at MD step  193000. t/step: 5.58625e-02
+ # Average timings at MD step  193100. t/step: 5.55332e-02
+ # Average timings at MD step  193200. t/step: 5.51268e-02
+ # Average timings at MD step  193300. t/step: 5.56240e-02
+ # Average timings at MD step  193400. t/step: 5.53672e-02
+ # Average timings at MD step  193500. t/step: 5.57763e-02
+ # Average timings at MD step  193600. t/step: 5.65921e-02
+ # Average timings at MD step  193700. t/step: 5.54909e-02
+ # Average timings at MD step  193800. t/step: 5.58685e-02
+ # Average timings at MD step  193900. t/step: 5.63227e-02
+ # Average timings at MD step  194000. t/step: 5.54883e-02
+ # Average timings at MD step  194100. t/step: 5.69266e-02
+ # Average timings at MD step  194200. t/step: 5.65906e-02
+ # Average timings at MD step  194300. t/step: 5.58148e-02
+ # Average timings at MD step  194400. t/step: 5.62098e-02
+ # Average timings at MD step  194500. t/step: 5.63539e-02
+ # Average timings at MD step  194600. t/step: 5.62278e-02
+ # Average timings at MD step  194700. t/step: 5.54287e-02
+ # Average timings at MD step  194800. t/step: 5.66101e-02
+ # Average timings at MD step  194900. t/step: 5.67842e-02
+ # Average timings at MD step  195000. t/step: 5.60244e-02
+ # Average timings at MD step  195100. t/step: 5.65434e-02
+ # Average timings at MD step  195200. t/step: 5.62234e-02
+ # Average timings at MD step  195300. t/step: 5.65371e-02
+ # Average timings at MD step  195400. t/step: 5.59729e-02
+ # Average timings at MD step  195500. t/step: 5.54411e-02
+ # Average timings at MD step  195600. t/step: 5.58630e-02
+ # Average timings at MD step  195700. t/step: 5.54675e-02
+ # Average timings at MD step  195800. t/step: 5.63313e-02
+ # Average timings at MD step  195900. t/step: 5.56196e-02
+ # Average timings at MD step  196000. t/step: 5.56834e-02
+ # Average timings at MD step  196100. t/step: 5.59189e-02
+ # Average timings at MD step  196200. t/step: 5.62025e-02
+ # Average timings at MD step  196300. t/step: 5.54805e-02
+ # Average timings at MD step  196400. t/step: 5.64604e-02
+ # Average timings at MD step  196500. t/step: 5.62991e-02
+ # Average timings at MD step  196600. t/step: 5.68272e-02
+ # Average timings at MD step  196700. t/step: 5.59969e-02
+ # Average timings at MD step  196800. t/step: 5.64005e-02
+ # Average timings at MD step  196900. t/step: 5.66036e-02
+ # Average timings at MD step  197000. t/step: 5.68524e-02
+ # Average timings at MD step  197100. t/step: 5.57398e-02
+ # Average timings at MD step  197200. t/step: 5.58315e-02
+ # Average timings at MD step  197300. t/step: 5.60248e-02
+ # Average timings at MD step  197400. t/step: 5.66777e-02
+ # Average timings at MD step  197500. t/step: 5.60916e-02
+ # Average timings at MD step  197600. t/step: 5.59693e-02
+ # Average timings at MD step  197700. t/step: 5.59722e-02
+ # Average timings at MD step  197800. t/step: 5.64290e-02
+ # Average timings at MD step  197900. t/step: 5.61414e-02
+ # Average timings at MD step  198000. t/step: 5.61049e-02
+ # Average timings at MD step  198100. t/step: 5.70453e-02
+ # Average timings at MD step  198200. t/step: 5.56651e-02
+ # Average timings at MD step  198300. t/step: 5.59782e-02
+ # Average timings at MD step  198400. t/step: 5.57913e-02
+ # Average timings at MD step  198500. t/step: 5.57904e-02
+ # Average timings at MD step  198600. t/step: 5.59543e-02
+ # Average timings at MD step  198700. t/step: 5.43791e-02
+ # Average timings at MD step  198800. t/step: 5.39982e-02
+ # Average timings at MD step  198900. t/step: 5.50807e-02
+ # Average timings at MD step  199000. t/step: 5.64789e-02
+ # Average timings at MD step  199100. t/step: 5.51397e-02
+ # Average timings at MD step  199200. t/step: 5.59108e-02
+ # Average timings at MD step  199300. t/step: 5.61208e-02
+ # Average timings at MD step  199400. t/step: 5.50114e-02
+ # Average timings at MD step  199500. t/step: 5.68183e-02
+ # Average timings at MD step  199600. t/step: 5.61958e-02
+ # Average timings at MD step  199700. t/step: 5.55341e-02
+ # Average timings at MD step  199800. t/step: 5.62045e-02
+ # Average timings at MD step  199900. t/step: 5.58817e-02
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 23148128274240)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.'. Cleaning up.
+ @SOCKET: Shutting down the driver interface.
+SOFTEXIT: Saving the latest status at the end of the step
+Backup performed: RESTART -> #RESTART#1#
