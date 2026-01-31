@@ -1,4 +1,4 @@
-# Investigating Anharmonicities in Polarization-Orientation Raman Spectra of Acene Crystals with Machine Learning
+# Investigating anharmonicities in polarization-orientation Raman spectra of acene crystals with machine learning
 
 **Authors:** Paolo Lazzaroni, Shubham Sharma, Mariana Rossi
 
@@ -70,18 +70,22 @@ Phonons and Raman tensor calculations for harmonic or RGDOS spectra.
 Production molecular dynamics trajectories input files.
 
 - **`input-nve.xml`, `input-nvt.xml`** - i-PI NVE and NVT input files
-- **`rgdos-example/`** - Example workflow for obtaining RGDOS correlation functions
+- **`rgdos-example/`** - Example workflow for obtaining RGDOS correlation functions 
 
   - **`100K/`** 
     - `optimized.xyz` - Optimized geometry
     - `modes` - Vibrational mode file printed by i-PI phonon calculation
     - `pol-minus`, `pol-plus` - Polarizability for +/- displaced geometries
     
-    - **`4x4x4/`** 
-      - **`nve/run1/`** - NVE runs
-        - `nvt.chk` - NVT restart checkpoint files
-        - `RESTART`, `#RESTART#0#` - Restart files for continuing simulations
-        - `run_ase.py` - Python script for ASE-based MD execution
+    - **`1x1x1/`** 
+      - **`nve/run1/`** - NVE MD runs with i-PI example (1x1x1 cell)
+        - `nvt.md` - MD output file
+        - `nvt.chk` - NVT checkpoint file for NVE restart 
+        - `nve.pos_0.xyz` - MD trajectory
+        - `RESTART` - i-PI input file 
+        - `anthra100K.cif` - Structure initialization for i-PI
+        - `ipi.out` - i-PI simulation output
+        - `run_ase.py` - Python script for ASE-based MACE model driver
 
 ---
 
