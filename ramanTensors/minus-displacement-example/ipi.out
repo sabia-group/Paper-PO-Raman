@@ -1,0 +1,1308 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-       v 3.0      -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ @system: Initializing system object 
+ @simulation: Initializing simulation object 
+@ RANDOM SEED: The seed used in this calculation was 1739379814720
+ --- begin input file content ---
+
+  <simulation>
+    <prng>
+      <seed>1738184564243</seed>
+      <state>[{"bit_generator": "MT19937", "state": {"key": [2147483648, 3570862602, 1357733456, 2507914611, 514787248, 3646857763, 290276976, 867604206, 743310353, 388704054, 1085689035, 3885937142, 588230608, 3213661617, 834794556, 3100865899, 2128612863, 475890304, 2629748739, 2716222254, 1835268476, 1028251188, 2944523196, 3842386206, 1925075169, 2237953401, 100812159, 2373880918, 3793264839, 2209432716, 534584352, 3524259447, 1402673540, 3082464871, 2887011753, 3040382640, 2467010836, 784236227, 778431576, 1930642379, 3694830949, 284384238, 436886391, 36764632, 4116236423, 1500546637, 4208945698, 1084637598, 3742948103, 2252922773, 1848992136, 866291690, 2909865070, 3461838378, 2412367604, 3632407834, 1191465051, 3660108085, 2113945725, 3807561818, 1173591596, 1094280964, 429793123, 659479222, 3265239424, 2522187912, 2848847728, 83161596, 2908550723, 3903809490, 1184319914, 2798576790, 684696208, 2511889829, 2111340965, 417471370, 2089283160, 1676467665, 1491397913, 2633170506, 253883966, 1905798981, 2162830423, 1338564608, 2057994421, 1611994984, 1699760493, 1745731861, 538331209, 3968294042, 554662514, 2317782030, 2196375093, 2185550201, 1288421174, 1145863476, 1901493577, 3959260704, 2704709771, 3666088460, 3894794298, 3876914024, 246414482, 627884212, 4150012931, 4169721749, 1172444319, 763726701, 142109607, 1434953402, 2508264828, 3080472996, 4153507214, 1943100940, 851979637, 1841456266, 3685380277, 2565428372, 2925059941, 230479652, 3965293830, 206885705, 267583886, 2647503461, 1870345892, 3088113197, 1887506044, 701846317, 866365116, 2126449762, 335387968, 3090397755, 2581215429, 3778063949, 4258448111, 1234255561, 4243696814, 223660361, 493343002, 3000009400, 3799086766, 1403727254, 745507218, 3457634735, 2448394992, 1045564559, 3185443171, 3694108903, 596172695, 3874410899, 2766076131, 1508597747, 2867191994, 1253494443, 2166868570, 1589407124, 3672305725, 3387151070, 166267412, 2033399627, 2362482383, 3281808961, 3804080896, 1454947120, 2132380934, 868128707, 1343027761, 2563611157, 2080045733, 3585870497, 3592814424, 3313391254, 3141205733, 3492078361, 1800084406, 3321986361, 650545881, 3361154442, 867648522, 2565263022, 2725229424, 109742839, 3925945148, 1675793530, 3088508745, 2314802916, 2397284510, 3421034304, 1189518649, 3290918426, 3375187920, 227148402, 1978980075, 3501220461, 4233978592, 1759825900, 172370265, 3138869354, 1299907142, 2081040466, 3861394551, 3170253035, 4206241483, 3959240341, 132939059, 412945056, 1872392807, 2344966013, 1479399730, 681630333, 207290598, 726311554, 185846028, 1448226095, 2752694319, 4073261521, 114521740, 11355312, 2000907326, 1828474068, 845790902, 1822307235, 3603375418, 1933981758, 1740362660, 3793871868, 3982259425, 3554388307, 3302325450, 1705532885, 3677888773, 3753132140, 3784770248, 931366046, 4211729012, 2627847241, 3609427196, 346149788, 209546368, 3542592287, 3868325006, 281137436, 3109166831, 406780790, 3310147155, 3388086671, 3534072728, 3634344967, 3722222723, 2468536383, 1198371088, 98880588, 1292733650, 281901808, 2769017846, 3836110942, 2667437026, 1391612975, 956551102, 2646305203, 1525306357, 4037170143, 1290154971, 4030202208, 4094684240, 352603417, 1627182209, 2356309530, 2203180942, 668693990, 1170032704, 3907121497, 279884721, 1798417900, 3378501090, 1087876639, 2858430079, 3230956521, 3583003053, 1185488561, 357975817, 2390267493, 3903833042, 3024042263, 350447164, 1260508188, 2164321021, 1721200367, 2878484877, 4042567977, 1232830662, 4119802375, 637214692, 3047149026, 2539896158, 2574345641, 1935202823, 15496177, 2300682332, 947731861, 2244093981, 1217548207, 2990172871, 633956593, 1803181925, 3206299329, 992316568, 340384769, 3933418348, 2973180234, 1876215529, 1922054920, 2549223597, 609949510, 1983156297, 2872024455, 3631217584, 2586141720, 3465650284, 1873225311, 1429700136, 261572938, 633086721, 4275699665, 3589373678, 2278240438, 2836962853, 2180747171, 2858373120, 370806279, 2544063454, 2111599284, 2156528213, 4102558389, 3957929492, 1438137088, 2052608839, 872330531, 4057171310, 2716146221, 366624709, 4140349877, 2361907450, 3466083200, 2508590553, 2562867423, 2841422369, 1289494260, 3806729785, 2626072507, 2524433802, 3309355064, 3238198557, 4037916016, 578077641, 2726884864, 3395054147, 783950535, 2381699016, 1748589025, 1124288604, 2325335428, 1051248597, 3469753400, 3050636810, 654392380, 3965076651, 712106057, 93044628, 2687608300, 3072438428, 2035641373, 804500716, 1010243658, 1655421846, 1698481060, 2413414022, 614474685, 374857770, 1841878624, 3604487943, 3826637352, 1021106721, 3810076129, 8637852, 722428370, 3186420561, 1021522667, 787218420, 3284120770, 3835397030, 389272683, 187050873, 1571664304, 1916192331, 600874936, 639558337, 2414815698, 1601999489, 3580804822, 2795195780, 1557845511, 3773776978, 1176030928, 4127046114, 1438210756, 3193780832, 708114476, 2756460051, 3995681332, 3424706397, 1786992043, 92438365, 1592241626, 2786520555, 99819403, 3905202907, 4198629276, 353641641, 1485840664, 1159694080, 2027271336, 4110083783, 2091102843, 2922045301, 1538677931, 1781300049, 719140149, 4257646617, 374361453, 1109973717, 3794691350, 3311450495, 2221883826, 3839425381, 1878412734, 3996561193, 1261776712, 1063990870, 1233553950, 1764943469, 2360101809, 1464310074, 1081960661, 3882740914, 2460565652, 2763682375, 479086454, 3258716451, 1599657349, 2924226801, 2535466024, 555037194, 2942571545, 4219890875, 1285090496, 1452758216, 3900130410, 1511382632, 1656196063, 2038084517, 2321178727, 235883506, 3021216940, 3797586757, 2132325829, 1509158222, 552154401, 115913975, 1472787637, 2828737702, 2246951669, 3702897898, 2886254613, 4138268117, 2790066789, 1679284424, 3234351093, 1396132042, 1691513770, 3159840840, 1324390189, 2108374038, 3783436042, 4113112374, 1557482664, 3383004057, 2079887392, 3820794083, 261653637, 1451997174, 2621307093, 1476054053, 209687362, 2208435039, 3567816848, 1602837910, 952213788, 3719016982, 2193616375, 3168591811, 1982893645, 72795499, 1144061096, 3977288783, 2151533344, 1925360831, 7460313, 400655934, 704821311, 1028299703, 3001969174, 1018210735, 504086742, 3370800727, 237866533, 3833052520, 4034693889, 4042463182, 1666309641, 3795429990, 1654215300, 515605190, 2827241196, 2227193887, 3823552987, 1949974983, 3213056571, 3062506901, 1478444738, 671100093, 4181099518, 1450107505, 3548196864, 69468185, 3029831823, 1770826707, 112391855, 3516072686, 2929604534, 3324028159, 3393294, 311918954, 2902899070, 1529925935, 2631075086, 182098791, 630584861, 3505027829, 3942529667, 546075313, 2925602489, 657571438, 427381348, 2384420706, 717994787, 628357292, 2380026593, 612902005, 1856141210, 2213521392, 3222575561, 1144445835, 3939942046, 1637918911, 2084422720, 1484491078, 633352280, 20010606, 2119071059, 2740784416, 2634178474, 3511730831, 2918419406, 3839390245, 3713386669, 1389742538, 2200542708, 3629790951, 1459018750, 1105107649, 380475856, 2131615792, 2148391509, 1567397683, 673634363, 2738016079, 1554040776, 2194616336, 2587599878, 1993167664, 743642859, 3071626762, 46947345, 4292666209, 2073050200, 1004356034, 911425838, 2327983871, 1626513898, 149053629, 603296744, 1567667725, 4280787215, 1666074513, 1896884781, 3793117675, 1269963466, 2675487591, 755581140, 2434480294, 68838546, 1347035221, 4249950508, 4217796955, 2108915819, 1129322511, 1993238995, 3561436474, 3375085507, 2202951825, 1836293710, 2723762852, 826926961], "pos": 623}}]</state>
+    </prng>
+    <output prefix='pol-minus'>
+      <trajectory filename='pol' cell_units='angstrom'>extras</trajectory>
+    </output>
+    <step>103</step>
+    <total_time>83600</total_time>
+    <ffsocket name='aims'>
+      <address>130.183.223.64</address>
+      <port>29568</port>
+    </ffsocket>
+    <system>
+      <forces>
+        <force forcefield='aims'>
+        </force>
+      </forces>
+      <ensemble>
+        <temperature>1.00000000e+00</temperature>
+        <pressure>-1.00000000e+00</pressure>
+        <stress shape='(3, 3)'>[  -1.00000000e+00,  -1.00000000e+00,  -1.00000000e+00,  -1.00000000e+00,  -1.00000000e+00, 
+             -1.00000000e+00,  -1.00000000e+00,  -1.00000000e+00,  -1.00000000e+00 ]</stress>
+        <hamiltonian_weights shape='(1)'>[   1.00000000e+00 ]</hamiltonian_weights>
+      </ensemble>
+      <motion mode='replay'>
+        <file mode='xyz'>minus.xyz</file>
+      </motion>
+      <beads natoms='48' nbeads='1'>
+        <q shape='(1, 144)'>[   1.53713698e+00,   6.01004308e+00,   3.40293865e+00,   1.42954070e+01,   3.49915970e-01, 
+              4.36658930e+00,   1.25714070e+01,   5.32448331e+00,   1.21262688e+01,  -1.86836990e-01, 
+              1.09841960e+01,   1.11625692e+01,  -1.53079100e-01,   6.69722178e+00,   2.44504766e+00, 
+              1.59855949e+01,   1.03767007e+00,   5.32413650e+00,   1.42615949e+01,   4.63673108e+00, 
+              1.30837972e+01,  -1.87704515e+00,   1.02969802e+01,   1.02046964e+01,   2.66130522e+00, 
+              7.46617519e+00,   5.23352334e+00,   1.31711550e+01,   1.80638544e+00,   2.53571272e+00, 
+              1.14471552e+01,   3.86800512e+00,   1.02953233e+01,   9.37332060e-01,   9.52805544e+00, 
+              1.29931228e+01,   1.89159767e+00,   9.31283583e+00,   5.73029345e+00,   1.39412589e+01, 
+              3.65298461e+00,   2.03930418e+00,   1.22172574e+01,   2.02140568e+00,   9.79896312e+00, 
+              1.67626820e-01,   7.68139463e+00,   1.34899041e+01,   4.87035900e+00,   6.61228398e+00, 
+              6.51936644e+00,   1.09622594e+01,   9.52183030e-01,   1.25023740e+00,   9.23832905e+00, 
+              4.72221386e+00,   9.00988641e+00,   3.14638935e+00,   1.03819048e+01,   1.42790074e+01, 
+              6.06547944e+00,   8.05930945e+00,   8.38443077e+00,   6.31875778e+00,   2.39945082e+00, 
+              1.49039292e+01,   8.04273933e+00,   3.27493951e+00,   7.14428072e+00,   7.78943780e+00, 
+              8.93492090e+00,   6.24775190e-01,   5.29365121e+00,   9.90832613e+00,   8.87974410e+00, 
+              7.09165384e+00,   4.24830344e+00,   1.44096366e+01,   8.81563129e+00,   1.42609622e+00, 
+              6.64996422e+00,   7.01761386e+00,   7.08590352e+00,   1.12009656e+00,   8.21934310e+00, 
+              7.17729799e+00,   9.64761494e+00,   4.16550431e+00,   1.51751294e+00,   1.36411654e+01, 
+              5.88948314e+00,   4.15688776e+00,   5.88156483e+00,   9.94330423e+00,   9.81693281e+00, 
+              1.88795539e+00,   4.66759019e+00,   2.70863078e+00,   3.96948904e+00,   1.11648094e+01, 
+              8.36847893e+00,   3.79979856e+00,   9.44080001e+00,   8.62576066e+00,   1.15594488e+01, 
+              2.94361945e+00,   2.96575894e+00,   1.17291486e+01,   5.44599005e+00,   8.65699950e-01, 
+              3.48217451e+00,   1.03868113e+01,   6.52545939e+00,   4.28750596e+00,   8.66280048e+00, 
+              1.04687799e+01,   1.20471449e+01,   3.72202139e+00,   4.80868939e+00,   1.12418460e+01, 
+              2.55940534e+00,   3.60940422e+00,   2.75463860e+00,   1.32732860e+01,   9.26949643e+00, 
+              5.01478874e+00,   1.15493854e+01,   7.72474422e+00,   1.27744186e+01,   8.35430930e-01, 
+              2.06499639e+00,   1.05143187e+01,   1.65990197e+00,   2.47192339e+00,   1.28907741e+00, 
+              1.41723713e+01,   8.13155579e+00,   6.48026728e+00,   1.24483726e+01,   8.86267277e+00, 
+              1.42398775e+01,  -6.40711400e-02,   3.20246580e+00,   9.04871726e+00 ]</q>
+        <p shape='(1, 144)'>[   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00, 
+              0.00000000e+00,   0.00000000e+00,   0.00000000e+00,   0.00000000e+00 ]</p>
+        <m shape='(48)'>[   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+              1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   2.18941669e+04,   2.18941669e+04, 
+              2.18941669e+04,   2.18941669e+04,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03, 
+              1.83736223e+03,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04, 
+              2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+              1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   2.18941669e+04,   2.18941669e+04, 
+              2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04, 
+              2.18941669e+04,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03,   1.83736223e+03, 
+              2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   2.18941669e+04,   1.83736223e+03, 
+              1.83736223e+03,   1.83736223e+03,   1.83736223e+03 ]</m>
+        <names shape='(48)'>[ C, C, C, C, H, 
+            H, H, H, C, C, 
+            C, C, H, H, H, 
+            H, C, C, C, C, 
+            C, C, C, C, H, 
+            H, H, H, C, C, 
+            C, C, C, C, C, 
+            C, H, H, H, H, 
+            C, C, C, C, H, 
+            H, H, H ]</names>
+      </beads>
+      <cell shape='(3, 3)'>[   1.75512100e+01,   6.93140291e-16,  -3.44793484e+00,   0.00000000e+00,   1.13198400e+01, 
+           1.18457849e-15,   0.00000000e+00,   0.00000000e+00,   1.55192980e+01 ]</cell>
+    </system>
+  </simulation>
+ ---  end input file content  ---
+ @system.bind: Binding the forces 
+ @interfacesocket.open: Created inet socket with address 130.183.223.64 and port number 29568
+ @ForceField: Starting the polling thread main loop.
+ @interfacesocket.pool_update:   Client asked for connection from ('130.183.223.64', 50204). Now hand-shaking.
+ @interfacesocket.pool_update:   Handshaking was successful. Added to the client list.
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @softexit.trigger:  SOFTEXIT CALLED FROM THREAD <Thread(ThreadPoolExecutor-1_0, started 22514335160000)>  # Finished reading re-run trajectory
+ !W! Soft exit has been requested with message: ' # Finished reading re-run trajectory I-PI reports success. Restartable as is: NO.'. Cleaning up.
+ @interfacesocket.close: Shutting down the driver interface.
+ @open_backup: Backup performed: RESTART -> #RESTART#2#

@@ -1,0 +1,37 @@
+<simulation verbosity='medium'>
+  <output prefix='nvt'>
+   <trajectory filename='pos' stride='10' format='xyz' cell_units='angstrom'> positions{angstrom} </trajectory>
+   <properties filename='md' stride='50'> [step, time{picosecond}, conserved, temperature{Kelvin}, potential] </properties>
+</output>
+  <total_steps> 100000 </total_steps>
+  <total_time> 83600 </total_time>
+  <prng>
+  <seed> 49201 </seed>
+  </prng>
+  <ffsocket mode='unix' name='MASE'>
+	  <address> host1 </address>
+  <port> porta1 </port>
+</ffsocket>
+  <ffsocket mode='unix' name='PIGS'>
+	  <address> host2 </address>
+  <port> porta2 </port>
+</ffsocket>
+ <system>
+    <initialize nbeads='1'>
+      <file mode='chk'> nvt.chk </file>
+      <velocities mode='thermal' units='kelvin'> caldo </velocities>
+    </initialize>
+    <forces>
+	<force forcefield='MASE' weight='1'> </force>
+	<force forcefield='PIGS' weight='1'> </force>
+    </forces>
+    <ensemble>
+      <temperature units='kelvin'> caldo </temperature>
+    </ensemble>
+    <motion mode='dynamics'>
+      <dynamics>
+        <timestep units='femtosecond'> 1.0 </timestep>
+      </dynamics>
+    </motion>
+  </system>
+</simulation>

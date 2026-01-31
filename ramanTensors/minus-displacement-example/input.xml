@@ -1,0 +1,22 @@
+<simulation verbosity='medium'>
+  <output prefix='pol-minus'>
+    <trajectory filename='pol' stride='1' cell_units='angstrom'> extras </trajectory>   
+  </output>
+  <total_steps> 16 </total_steps>
+  <total_time>83600</total_time>
+  <ffsocket mode='inet' name='aims'>
+    <address> 130.183.223.60 </address>
+    <port> 29568 </port>
+  </ffsocket>
+  <system>
+    <initialize nbeads='1'>
+      <file mode='xyz'> init.xyz </file>
+    </initialize>
+    <forces>
+      <force forcefield='aims'> </force>
+    </forces>
+    <motion mode='replay'>
+    <file mode='xyz'> minus.xyz </file>
+    </motion>
+  </system>
+</simulation>

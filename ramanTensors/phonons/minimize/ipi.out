@@ -1,0 +1,2156 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.0    -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingffsocket
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file initial.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file initial.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file initial.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file initial.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file initial.xyz. Dimension: length, units: automatic, cell_units: automatic
+ !W! Momenta not specified in initialize. Will start with zero velocity if they are not specified in beads.
+ # Binding the forces 
+Created unix socket with address unixsocketipi
+ @ForceField: Starting the polling thread main loop.
+ # i-PI loaded input file:  RESTART
+ --- begin input file content ---
+<simulation mode='static' verbosity='medium'>
+   <output prefix='opt'>
+    <trajectory filename='pos' stride='1'> positions </trajectory>
+   </output>
+   <total_steps> 10000 </total_steps>
+   <total_time>13600</total_time>
+   <prng>
+  <seed> 32329 </seed>
+   </prng>
+   <ffsocket mode='unix' name='MASE'>
+  <address> unixsocketipi </address>
+     <port> 23423 </port>
+   </ffsocket>
+ <system>
+     <initialize nbeads='1'>
+       <file mode='xyz'> initial.xyz </file>
+     </initialize>
+     <forces>
+       <force forcefield='MASE'> </force>
+     </forces>
+     <motion mode='minimize'>
+       <optimizer mode='bfgs'>
+         <tolerances>
+           <energy> 1e-7 </energy>
+           <force> 1e-7 </force>
+           <position> 1e-7 </position>
+         </tolerances>
+       </optimizer>
+     </motion>
+   </system>
+ </simulation>
+  ---  end input file content  ---
+ @SOCKET:   Client asked for connection from . Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+   Number of force calls: 2
+@GEOP
+   Current energy             -1.078245e+03
+   Position displacement      4.015940e-02  Tolerance 1.000000e-07
+   Max force component        1.299949e-02  Tolerance 1.000000e-07
+   Energy difference per atom 2.755059e-04  Tolerance 1.000000e-07
+ # Average timings at MD step       0. t/step: 3.12823e+01
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078247e+03
+   Position displacement      1.365989e-02  Tolerance 1.000000e-07
+   Max force component        7.784247e-03  Tolerance 1.000000e-07
+   Energy difference per atom 4.443908e-05  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078249e+03
+   Position displacement      2.216400e-02  Tolerance 1.000000e-07
+   Max force component        6.005316e-03  Tolerance 1.000000e-07
+   Energy difference per atom 3.633176e-05  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078250e+03
+   Position displacement      1.596798e-02  Tolerance 1.000000e-07
+   Max force component        5.333669e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.657474e-05  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078251e+03
+   Position displacement      2.602370e-02  Tolerance 1.000000e-07
+   Max force component        4.807117e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.727859e-05  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078251e+03
+   Position displacement      2.139804e-02  Tolerance 1.000000e-07
+   Max force component        3.525099e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.031127e-05  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078252e+03
+   Position displacement      2.177248e-02  Tolerance 1.000000e-07
+   Max force component        3.813738e-03  Tolerance 1.000000e-07
+   Energy difference per atom 8.602647e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078252e+03
+   Position displacement      1.624297e-02  Tolerance 1.000000e-07
+   Max force component        3.188911e-03  Tolerance 1.000000e-07
+   Energy difference per atom 5.813947e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078252e+03
+   Position displacement      1.194438e-02  Tolerance 1.000000e-07
+   Max force component        2.823220e-03  Tolerance 1.000000e-07
+   Energy difference per atom 4.262221e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078252e+03
+   Position displacement      7.973042e-03  Tolerance 1.000000e-07
+   Max force component        2.331124e-03  Tolerance 1.000000e-07
+   Energy difference per atom 3.124615e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      7.796982e-03  Tolerance 1.000000e-07
+   Max force component        2.027017e-03  Tolerance 1.000000e-07
+   Energy difference per atom 2.872248e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      8.748172e-03  Tolerance 1.000000e-07
+   Max force component        1.784299e-03  Tolerance 1.000000e-07
+   Energy difference per atom 2.581536e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      8.116460e-03  Tolerance 1.000000e-07
+   Max force component        1.775949e-03  Tolerance 1.000000e-07
+   Energy difference per atom 2.103918e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      7.107559e-03  Tolerance 1.000000e-07
+   Max force component        1.468867e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.701105e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      7.686936e-03  Tolerance 1.000000e-07
+   Max force component        1.508793e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.623520e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      9.465134e-03  Tolerance 1.000000e-07
+   Max force component        1.550523e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.676788e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      1.026935e-02  Tolerance 1.000000e-07
+   Max force component        1.801976e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.565376e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      9.008185e-03  Tolerance 1.000000e-07
+   Max force component        1.498024e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.275187e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      6.987562e-03  Tolerance 1.000000e-07
+   Max force component        1.147957e-03  Tolerance 1.000000e-07
+   Energy difference per atom 1.015709e-06  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      6.111404e-03  Tolerance 1.000000e-07
+   Max force component        9.759165e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.528659e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      6.017623e-03  Tolerance 1.000000e-07
+   Max force component        8.912311e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.139130e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.884642e-03  Tolerance 1.000000e-07
+   Max force component        1.005759e-03  Tolerance 1.000000e-07
+   Energy difference per atom 5.710794e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.701124e-03  Tolerance 1.000000e-07
+   Max force component        8.211120e-04  Tolerance 1.000000e-07
+   Energy difference per atom 4.587476e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.710452e-03  Tolerance 1.000000e-07
+   Max force component        6.141417e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.987746e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.864563e-03  Tolerance 1.000000e-07
+   Max force component        8.267640e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.689997e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.763982e-03  Tolerance 1.000000e-07
+   Max force component        9.257202e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.392977e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.227764e-03  Tolerance 1.000000e-07
+   Max force component        7.938778e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.016510e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      4.684543e-03  Tolerance 1.000000e-07
+   Max force component        7.184711e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.588093e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      4.248106e-03  Tolerance 1.000000e-07
+   Max force component        5.213114e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.204060e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      3.909073e-03  Tolerance 1.000000e-07
+   Max force component        5.964576e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.953281e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      3.628336e-03  Tolerance 1.000000e-07
+   Max force component        5.259955e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.762308e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      3.138888e-03  Tolerance 1.000000e-07
+   Max force component        4.477727e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.515499e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      2.513670e-03  Tolerance 1.000000e-07
+   Max force component        5.243288e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.274762e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      2.528626e-03  Tolerance 1.000000e-07
+   Max force component        6.181127e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.188357e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      3.309045e-03  Tolerance 1.000000e-07
+   Max force component        5.346520e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.309377e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      4.472195e-03  Tolerance 1.000000e-07
+   Max force component        5.181818e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.567854e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      5.711895e-03  Tolerance 1.000000e-07
+   Max force component        6.203079e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.859782e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      6.785087e-03  Tolerance 1.000000e-07
+   Max force component        6.325579e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.147715e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      7.702401e-03  Tolerance 1.000000e-07
+   Max force component        5.327491e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.446696e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      8.502666e-03  Tolerance 1.000000e-07
+   Max force component        6.443214e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.740901e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078253e+03
+   Position displacement      9.250788e-03  Tolerance 1.000000e-07
+   Max force component        6.275416e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.023394e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.031651e-02  Tolerance 1.000000e-07
+   Max force component        6.444779e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.388100e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.204326e-02  Tolerance 1.000000e-07
+   Max force component        7.657275e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.900035e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.373949e-02  Tolerance 1.000000e-07
+   Max force component        7.988513e-04  Tolerance 1.000000e-07
+   Energy difference per atom 4.302802e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.334438e-02  Tolerance 1.000000e-07
+   Max force component        7.777037e-04  Tolerance 1.000000e-07
+   Energy difference per atom 4.051365e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.006819e-02  Tolerance 1.000000e-07
+   Max force component        5.842440e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.132971e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.928577e-03  Tolerance 1.000000e-07
+   Max force component        5.617719e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.335547e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.838527e-03  Tolerance 1.000000e-07
+   Max force component        4.888736e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.075741e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.079369e-03  Tolerance 1.000000e-07
+   Max force component        5.592804e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.031753e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.377560e-03  Tolerance 1.000000e-07
+   Max force component        5.066347e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.830539e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.094184e-03  Tolerance 1.000000e-07
+   Max force component        4.516953e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.529264e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.841138e-03  Tolerance 1.000000e-07
+   Max force component        4.554801e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.369033e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.302439e-03  Tolerance 1.000000e-07
+   Max force component        4.388889e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.415950e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.120621e-03  Tolerance 1.000000e-07
+   Max force component        4.467190e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.524493e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.524531e-03  Tolerance 1.000000e-07
+   Max force component        5.509221e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.542630e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.161939e-03  Tolerance 1.000000e-07
+   Max force component        4.985432e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.440127e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.280061e-03  Tolerance 1.000000e-07
+   Max force component        4.169527e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.270926e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.396625e-03  Tolerance 1.000000e-07
+   Max force component        3.842499e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.110467e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.033906e-03  Tolerance 1.000000e-07
+   Max force component        3.570323e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.039125e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.406685e-03  Tolerance 1.000000e-07
+   Max force component        4.450293e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.091868e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.293935e-03  Tolerance 1.000000e-07
+   Max force component        4.935885e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.233962e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.253858e-03  Tolerance 1.000000e-07
+   Max force component        5.232023e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.409561e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.035448e-03  Tolerance 1.000000e-07
+   Max force component        4.882484e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.603099e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.942566e-03  Tolerance 1.000000e-07
+   Max force component        5.320614e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.818097e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.796869e-03  Tolerance 1.000000e-07
+   Max force component        6.815330e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.972266e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.739715e-03  Tolerance 1.000000e-07
+   Max force component        6.082022e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.931009e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.904695e-03  Tolerance 1.000000e-07
+   Max force component        5.619204e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.761844e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.695971e-03  Tolerance 1.000000e-07
+   Max force component        4.737877e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.721140e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.878448e-03  Tolerance 1.000000e-07
+   Max force component        6.365642e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.879716e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.093382e-02  Tolerance 1.000000e-07
+   Max force component        5.647085e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.923739e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.339679e-03  Tolerance 1.000000e-07
+   Max force component        3.799798e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.547994e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.935638e-03  Tolerance 1.000000e-07
+   Max force component        3.973099e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.035504e-07  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.851007e-03  Tolerance 1.000000e-07
+   Max force component        3.381822e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.967072e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.612370e-03  Tolerance 1.000000e-07
+   Max force component        3.419317e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.171162e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.044706e-03  Tolerance 1.000000e-07
+   Max force component        3.614665e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.714710e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.407038e-03  Tolerance 1.000000e-07
+   Max force component        3.418214e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.590549e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.519536e-03  Tolerance 1.000000e-07
+   Max force component        2.940678e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.337959e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.755641e-03  Tolerance 1.000000e-07
+   Max force component        3.426138e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.334789e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.593055e-03  Tolerance 1.000000e-07
+   Max force component        3.197339e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.809746e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.814672e-03  Tolerance 1.000000e-07
+   Max force component        3.335839e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.547406e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.229655e-03  Tolerance 1.000000e-07
+   Max force component        3.310134e-04  Tolerance 1.000000e-07
+   Energy difference per atom 5.809743e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.596101e-03  Tolerance 1.000000e-07
+   Max force component        3.143117e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.421210e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.533453e-03  Tolerance 1.000000e-07
+   Max force component        3.332000e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.411825e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.616995e-03  Tolerance 1.000000e-07
+   Max force component        2.655055e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.768045e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.163377e-03  Tolerance 1.000000e-07
+   Max force component        2.312106e-04  Tolerance 1.000000e-07
+   Energy difference per atom 4.570435e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.902217e-03  Tolerance 1.000000e-07
+   Max force component        1.763204e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.019048e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.758456e-03  Tolerance 1.000000e-07
+   Max force component        2.273916e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.806453e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.066500e-03  Tolerance 1.000000e-07
+   Max force component        2.633972e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.061979e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.136739e-03  Tolerance 1.000000e-07
+   Max force component        2.267556e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.885354e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.842267e-03  Tolerance 1.000000e-07
+   Max force component        1.582872e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.329034e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.529510e-03  Tolerance 1.000000e-07
+   Max force component        1.895642e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.964332e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.610684e-03  Tolerance 1.000000e-07
+   Max force component        1.942051e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.077191e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.045316e-03  Tolerance 1.000000e-07
+   Max force component        2.219858e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.541040e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.640826e-03  Tolerance 1.000000e-07
+   Max force component        2.730718e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.113431e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.095260e-03  Tolerance 1.000000e-07
+   Max force component        2.277655e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.518401e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.225443e-03  Tolerance 1.000000e-07
+   Max force component        2.059463e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.582742e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.079525e-03  Tolerance 1.000000e-07
+   Max force component        2.311764e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.452883e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.930523e-03  Tolerance 1.000000e-07
+   Max force component        2.960640e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.406034e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.944586e-03  Tolerance 1.000000e-07
+   Max force component        2.595095e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.443611e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.969305e-03  Tolerance 1.000000e-07
+   Max force component        2.496641e-04  Tolerance 1.000000e-07
+   Energy difference per atom 3.301904e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.805063e-03  Tolerance 1.000000e-07
+   Max force component        1.733449e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.934152e-08  Tolerance 1.000000e-07
+ # Average timings at MD step     100. t/step: 6.18797e-02
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.549789e-03  Tolerance 1.000000e-07
+   Max force component        1.924913e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.622232e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.357718e-03  Tolerance 1.000000e-07
+   Max force component        1.950454e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.465120e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.056462e-03  Tolerance 1.000000e-07
+   Max force component        1.634484e-04  Tolerance 1.000000e-07
+   Energy difference per atom 2.189035e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.498174e-03  Tolerance 1.000000e-07
+   Max force component        1.482773e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.715009e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.051848e-03  Tolerance 1.000000e-07
+   Max force component        1.282227e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.422857e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.185761e-03  Tolerance 1.000000e-07
+   Max force component        1.525173e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.559325e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.626886e-03  Tolerance 1.000000e-07
+   Max force component        1.628990e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.888936e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.836851e-03  Tolerance 1.000000e-07
+   Max force component        1.346497e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.800599e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.366541e-03  Tolerance 1.000000e-07
+   Max force component        1.160475e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.180079e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.658556e-04  Tolerance 1.000000e-07
+   Max force component        9.698896e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.873966e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.418200e-04  Tolerance 1.000000e-07
+   Max force component        1.029760e-04  Tolerance 1.000000e-07
+   Energy difference per atom 5.994442e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.613056e-04  Tolerance 1.000000e-07
+   Max force component        1.258539e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.995137e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.078828e-03  Tolerance 1.000000e-07
+   Max force component        1.026016e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.177372e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.124342e-03  Tolerance 1.000000e-07
+   Max force component        1.039699e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.503688e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.123534e-03  Tolerance 1.000000e-07
+   Max force component        1.141474e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.253543e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.247451e-03  Tolerance 1.000000e-07
+   Max force component        1.088146e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.944362e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.374692e-03  Tolerance 1.000000e-07
+   Max force component        1.277064e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.622461e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.409060e-03  Tolerance 1.000000e-07
+   Max force component        1.038965e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.894765e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.525690e-03  Tolerance 1.000000e-07
+   Max force component        1.120831e-04  Tolerance 1.000000e-07
+   Energy difference per atom 8.751603e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.928640e-03  Tolerance 1.000000e-07
+   Max force component        1.299787e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.092475e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.381624e-03  Tolerance 1.000000e-07
+   Max force component        1.419351e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.270246e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.235833e-03  Tolerance 1.000000e-07
+   Max force component        1.261069e-04  Tolerance 1.000000e-07
+   Energy difference per atom 1.127094e-08  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.619917e-03  Tolerance 1.000000e-07
+   Max force component        7.854973e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.947927e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.182855e-03  Tolerance 1.000000e-07
+   Max force component        1.174541e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.384686e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.250637e-03  Tolerance 1.000000e-07
+   Max force component        1.244040e-04  Tolerance 1.000000e-07
+   Energy difference per atom 6.967862e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.412084e-03  Tolerance 1.000000e-07
+   Max force component        9.313602e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.299249e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.340381e-03  Tolerance 1.000000e-07
+   Max force component        7.884242e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.178259e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.174048e-03  Tolerance 1.000000e-07
+   Max force component        9.143772e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.248002e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.319538e-03  Tolerance 1.000000e-07
+   Max force component        9.617739e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.022001e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.740733e-03  Tolerance 1.000000e-07
+   Max force component        1.161014e-04  Tolerance 1.000000e-07
+   Energy difference per atom 7.730672e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.892171e-03  Tolerance 1.000000e-07
+   Max force component        9.269115e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.953924e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.581484e-03  Tolerance 1.000000e-07
+   Max force component        8.882296e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.390830e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.306312e-03  Tolerance 1.000000e-07
+   Max force component        9.804491e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.616750e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.633851e-03  Tolerance 1.000000e-07
+   Max force component        9.984586e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.108862e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.368987e-03  Tolerance 1.000000e-07
+   Max force component        1.093226e-04  Tolerance 1.000000e-07
+   Energy difference per atom 9.407051e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.676140e-03  Tolerance 1.000000e-07
+   Max force component        1.048702e-04  Tolerance 1.000000e-07
+   Energy difference per atom 9.340591e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.050078e-03  Tolerance 1.000000e-07
+   Max force component        8.254533e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.760274e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.408851e-03  Tolerance 1.000000e-07
+   Max force component        9.950105e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.063754e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.434556e-03  Tolerance 1.000000e-07
+   Max force component        9.398767e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.296873e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.653075e-03  Tolerance 1.000000e-07
+   Max force component        7.556545e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.391608e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.402244e-03  Tolerance 1.000000e-07
+   Max force component        6.112355e-05  Tolerance 1.000000e-07
+   Energy difference per atom 3.878057e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.931438e-04  Tolerance 1.000000e-07
+   Max force component        5.230816e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.403449e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.725168e-04  Tolerance 1.000000e-07
+   Max force component        6.046951e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.246765e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.005005e-03  Tolerance 1.000000e-07
+   Max force component        6.034979e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.869650e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.031490e-03  Tolerance 1.000000e-07
+   Max force component        4.980403e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.710394e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.870722e-04  Tolerance 1.000000e-07
+   Max force component        3.579859e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.575136e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.993036e-04  Tolerance 1.000000e-07
+   Max force component        3.424851e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.850834e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.602889e-04  Tolerance 1.000000e-07
+   Max force component        3.830800e-05  Tolerance 1.000000e-07
+   Energy difference per atom 7.453262e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.760904e-04  Tolerance 1.000000e-07
+   Max force component        3.876610e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.060670e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.005276e-04  Tolerance 1.000000e-07
+   Max force component        3.938367e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.152491e-09  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.769069e-04  Tolerance 1.000000e-07
+   Max force component        3.351993e-05  Tolerance 1.000000e-07
+   Energy difference per atom 8.380378e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.178499e-04  Tolerance 1.000000e-07
+   Max force component        2.559499e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.451834e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.093869e-04  Tolerance 1.000000e-07
+   Max force component        2.026863e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.642224e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.318586e-05  Tolerance 1.000000e-07
+   Max force component        1.747511e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.074832e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.149161e-05  Tolerance 1.000000e-07
+   Max force component        1.740220e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.862285e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.078757e-04  Tolerance 1.000000e-07
+   Max force component        2.244462e-05  Tolerance 1.000000e-07
+   Energy difference per atom 2.124191e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.723247e-04  Tolerance 1.000000e-07
+   Max force component        2.552385e-05  Tolerance 1.000000e-07
+   Energy difference per atom 3.106019e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.780827e-04  Tolerance 1.000000e-07
+   Max force component        2.992317e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.659645e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.817287e-04  Tolerance 1.000000e-07
+   Max force component        3.489662e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.983907e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.051104e-04  Tolerance 1.000000e-07
+   Max force component        2.597594e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.117678e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.415249e-04  Tolerance 1.000000e-07
+   Max force component        2.825038e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.303728e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.765919e-04  Tolerance 1.000000e-07
+   Max force component        2.577273e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.607254e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.624801e-04  Tolerance 1.000000e-07
+   Max force component        2.251402e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.438334e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.885120e-04  Tolerance 1.000000e-07
+   Max force component        3.263751e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.578595e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.302525e-04  Tolerance 1.000000e-07
+   Max force component        3.512507e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.746994e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.335188e-04  Tolerance 1.000000e-07
+   Max force component        2.677601e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.441082e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.414666e-04  Tolerance 1.000000e-07
+   Max force component        1.712930e-05  Tolerance 1.000000e-07
+   Energy difference per atom 3.194505e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.086465e-04  Tolerance 1.000000e-07
+   Max force component        1.265739e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.694313e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.873070e-05  Tolerance 1.000000e-07
+   Max force component        9.068873e-06  Tolerance 1.000000e-07
+   Energy difference per atom 9.357848e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.379018e-05  Tolerance 1.000000e-07
+   Max force component        1.194743e-05  Tolerance 1.000000e-07
+   Energy difference per atom 8.731623e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.612405e-05  Tolerance 1.000000e-07
+   Max force component        1.421006e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.076093e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.368920e-04  Tolerance 1.000000e-07
+   Max force component        1.108653e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.131989e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.350187e-04  Tolerance 1.000000e-07
+   Max force component        9.907649e-06  Tolerance 1.000000e-07
+   Energy difference per atom 9.252688e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.109740e-04  Tolerance 1.000000e-07
+   Max force component        1.026402e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.956213e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.996177e-05  Tolerance 1.000000e-07
+   Max force component        1.108486e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.800368e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.214176e-04  Tolerance 1.000000e-07
+   Max force component        1.076600e-05  Tolerance 1.000000e-07
+   Energy difference per atom 8.749623e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.628628e-04  Tolerance 1.000000e-07
+   Max force component        1.328118e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.129147e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.927089e-04  Tolerance 1.000000e-07
+   Max force component        1.452431e-05  Tolerance 1.000000e-07
+   Energy difference per atom 1.201386e-10  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.695513e-04  Tolerance 1.000000e-07
+   Max force component        1.200952e-05  Tolerance 1.000000e-07
+   Energy difference per atom 9.382006e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.084624e-04  Tolerance 1.000000e-07
+   Max force component        7.877070e-06  Tolerance 1.000000e-07
+   Energy difference per atom 5.732185e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.902475e-05  Tolerance 1.000000e-07
+   Max force component        7.942224e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.864879e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.758640e-05  Tolerance 1.000000e-07
+   Max force component        7.858134e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.850194e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.502264e-05  Tolerance 1.000000e-07
+   Max force component        1.269627e-05  Tolerance 1.000000e-07
+   Energy difference per atom 4.646949e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.006674e-04  Tolerance 1.000000e-07
+   Max force component        1.499494e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.358913e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.017141e-04  Tolerance 1.000000e-07
+   Max force component        1.198991e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.583445e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.415710e-05  Tolerance 1.000000e-07
+   Max force component        1.203690e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.485390e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.430936e-05  Tolerance 1.000000e-07
+   Max force component        1.129361e-05  Tolerance 1.000000e-07
+   Energy difference per atom 5.236700e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.864223e-05  Tolerance 1.000000e-07
+   Max force component        7.836735e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.541315e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.962783e-05  Tolerance 1.000000e-07
+   Max force component        7.427030e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.438553e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.400784e-05  Tolerance 1.000000e-07
+   Max force component        5.463564e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.662640e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.897436e-05  Tolerance 1.000000e-07
+   Max force component        6.515815e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.612429e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.957620e-05  Tolerance 1.000000e-07
+   Max force component        6.497717e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.967226e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.151341e-05  Tolerance 1.000000e-07
+   Max force component        8.264487e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.110282e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.154697e-05  Tolerance 1.000000e-07
+   Max force component        6.473082e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.904699e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.019758e-05  Tolerance 1.000000e-07
+   Max force component        6.436968e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.855908e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.288405e-05  Tolerance 1.000000e-07
+   Max force component        6.179657e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.454185e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.122136e-04  Tolerance 1.000000e-07
+   Max force component        9.706737e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.762057e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.537700e-04  Tolerance 1.000000e-07
+   Max force component        1.176066e-05  Tolerance 1.000000e-07
+   Energy difference per atom 6.519466e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.965674e-04  Tolerance 1.000000e-07
+   Max force component        1.296880e-05  Tolerance 1.000000e-07
+   Energy difference per atom 8.287297e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.238527e-04  Tolerance 1.000000e-07
+   Max force component        1.150730e-05  Tolerance 1.000000e-07
+   Energy difference per atom 9.443587e-11  Tolerance 1.000000e-07
+ # Average timings at MD step     200. t/step: 6.35714e-02
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.178947e-04  Tolerance 1.000000e-07
+   Max force component        1.087925e-05  Tolerance 1.000000e-07
+   Energy difference per atom 9.199634e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.740503e-04  Tolerance 1.000000e-07
+   Max force component        7.767207e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.272168e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.060652e-04  Tolerance 1.000000e-07
+   Max force component        7.462843e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.833585e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.443718e-05  Tolerance 1.000000e-07
+   Max force component        6.980241e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.330551e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.349191e-05  Tolerance 1.000000e-07
+   Max force component        6.539243e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.953489e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.720472e-05  Tolerance 1.000000e-07
+   Max force component        7.271865e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.105545e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.165505e-05  Tolerance 1.000000e-07
+   Max force component        5.832618e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.108388e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.550396e-05  Tolerance 1.000000e-07
+   Max force component        5.295313e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.642745e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.861969e-05  Tolerance 1.000000e-07
+   Max force component        4.853335e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.984783e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.527935e-05  Tolerance 1.000000e-07
+   Max force component        4.154113e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.599195e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.055086e-05  Tolerance 1.000000e-07
+   Max force component        4.167060e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.555615e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.380094e-05  Tolerance 1.000000e-07
+   Max force component        6.004060e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.546141e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.455193e-05  Tolerance 1.000000e-07
+   Max force component        4.876879e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.229239e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.285529e-05  Tolerance 1.000000e-07
+   Max force component        2.693952e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.356486e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.415588e-05  Tolerance 1.000000e-07
+   Max force component        2.616049e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.609054e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.891190e-05  Tolerance 1.000000e-07
+   Max force component        3.248395e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.808006e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.533843e-05  Tolerance 1.000000e-07
+   Max force component        3.697747e-06  Tolerance 1.000000e-07
+   Energy difference per atom 6.660154e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.418091e-05  Tolerance 1.000000e-07
+   Max force component        3.124946e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.977026e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.711206e-05  Tolerance 1.000000e-07
+   Max force component        2.910880e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.176482e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.899452e-05  Tolerance 1.000000e-07
+   Max force component        2.507385e-06  Tolerance 1.000000e-07
+   Energy difference per atom 5.532759e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.697034e-05  Tolerance 1.000000e-07
+   Max force component        2.895493e-06  Tolerance 1.000000e-07
+   Energy difference per atom 5.556444e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.019588e-05  Tolerance 1.000000e-07
+   Max force component        3.939190e-06  Tolerance 1.000000e-07
+   Energy difference per atom 8.024396e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.620076e-05  Tolerance 1.000000e-07
+   Max force component        5.620048e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.204133e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.298534e-05  Tolerance 1.000000e-07
+   Max force component        5.438254e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.551825e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.019286e-04  Tolerance 1.000000e-07
+   Max force component        5.677913e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.639459e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.344832e-05  Tolerance 1.000000e-07
+   Max force component        6.011205e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.580247e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.727034e-05  Tolerance 1.000000e-07
+   Max force component        5.499112e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.622406e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.060648e-05  Tolerance 1.000000e-07
+   Max force component        7.575522e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.761199e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.121390e-05  Tolerance 1.000000e-07
+   Max force component        6.918395e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.725198e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.677210e-05  Tolerance 1.000000e-07
+   Max force component        3.627962e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.386506e-11  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.306292e-05  Tolerance 1.000000e-07
+   Max force component        2.875995e-06  Tolerance 1.000000e-07
+   Energy difference per atom 9.634959e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.424962e-05  Tolerance 1.000000e-07
+   Max force component        2.490828e-06  Tolerance 1.000000e-07
+   Energy difference per atom 6.721734e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.309843e-05  Tolerance 1.000000e-07
+   Max force component        2.793715e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.898008e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.755885e-05  Tolerance 1.000000e-07
+   Max force component        2.242796e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.457975e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.340103e-05  Tolerance 1.000000e-07
+   Max force component        1.547961e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.325843e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.024536e-05  Tolerance 1.000000e-07
+   Max force component        1.425030e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.667407e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.356382e-06  Tolerance 1.000000e-07
+   Max force component        1.737721e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.406875e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.052400e-05  Tolerance 1.000000e-07
+   Max force component        1.437356e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.383190e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.231741e-05  Tolerance 1.000000e-07
+   Max force component        1.335870e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.539509e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.482487e-05  Tolerance 1.000000e-07
+   Max force component        1.617919e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.918465e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.861888e-05  Tolerance 1.000000e-07
+   Max force component        1.905375e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.539006e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.691259e-05  Tolerance 1.000000e-07
+   Max force component        2.381787e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.259023e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.261008e-05  Tolerance 1.000000e-07
+   Max force component        2.422743e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.552714e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.032759e-05  Tolerance 1.000000e-07
+   Max force component        1.771923e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.154810e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.438814e-05  Tolerance 1.000000e-07
+   Max force component        1.867664e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.676378e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.403869e-05  Tolerance 1.000000e-07
+   Max force component        2.358272e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.823223e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.146578e-05  Tolerance 1.000000e-07
+   Max force component        2.575198e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.585872e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.131047e-05  Tolerance 1.000000e-07
+   Max force component        2.882915e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.286941e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.542063e-05  Tolerance 1.000000e-07
+   Max force component        2.341293e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.343785e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.282634e-05  Tolerance 1.000000e-07
+   Max force component        2.755571e-06  Tolerance 1.000000e-07
+   Energy difference per atom 4.045357e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.054889e-05  Tolerance 1.000000e-07
+   Max force component        2.421688e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.955355e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.829950e-05  Tolerance 1.000000e-07
+   Max force component        2.208306e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.799035e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.032823e-05  Tolerance 1.000000e-07
+   Max force component        1.935225e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.026912e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.140199e-05  Tolerance 1.000000e-07
+   Max force component        1.985159e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.273737e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.135320e-05  Tolerance 1.000000e-07
+   Max force component        2.118289e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.349528e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.156866e-05  Tolerance 1.000000e-07
+   Max force component        2.644819e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.197442e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.097527e-05  Tolerance 1.000000e-07
+   Max force component        2.335214e-06  Tolerance 1.000000e-07
+   Energy difference per atom 3.609557e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.203073e-05  Tolerance 1.000000e-07
+   Max force component        1.592747e-06  Tolerance 1.000000e-07
+   Energy difference per atom 2.510584e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.480638e-05  Tolerance 1.000000e-07
+   Max force component        1.128474e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.174764e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.159219e-06  Tolerance 1.000000e-07
+   Max force component        1.115407e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.910709e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.142057e-05  Tolerance 1.000000e-07
+   Max force component        1.271261e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.070551e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.612400e-05  Tolerance 1.000000e-07
+   Max force component        1.187025e-06  Tolerance 1.000000e-07
+   Energy difference per atom 1.236344e-12  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.442914e-05  Tolerance 1.000000e-07
+   Max force component        9.198081e-07  Tolerance 1.000000e-07
+   Energy difference per atom 8.905469e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.140608e-06  Tolerance 1.000000e-07
+   Max force component        6.652409e-07  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.133069e-06  Tolerance 1.000000e-07
+   Max force component        9.265965e-07  Tolerance 1.000000e-07
+   Energy difference per atom 4.026409e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.487572e-06  Tolerance 1.000000e-07
+   Max force component        1.249719e-06  Tolerance 1.000000e-07
+   Energy difference per atom 6.394885e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.225238e-05  Tolerance 1.000000e-07
+   Max force component        1.229692e-06  Tolerance 1.000000e-07
+   Energy difference per atom 8.621252e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.317698e-05  Tolerance 1.000000e-07
+   Max force component        1.143256e-06  Tolerance 1.000000e-07
+   Energy difference per atom 7.815970e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.024041e-06  Tolerance 1.000000e-07
+   Max force component        7.569268e-07  Tolerance 1.000000e-07
+   Energy difference per atom 4.642213e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.290022e-06  Tolerance 1.000000e-07
+   Max force component        5.046192e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.936910e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.942563e-06  Tolerance 1.000000e-07
+   Max force component        5.180084e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.794801e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.215675e-06  Tolerance 1.000000e-07
+   Max force component        4.880939e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.463215e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.264203e-06  Tolerance 1.000000e-07
+   Max force component        5.099101e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.610564e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.501948e-06  Tolerance 1.000000e-07
+   Max force component        4.919693e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.184238e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.753806e-06  Tolerance 1.000000e-07
+   Max force component        5.514020e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.231607e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.261769e-06  Tolerance 1.000000e-07
+   Max force component        4.244972e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.326346e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.275929e-06  Tolerance 1.000000e-07
+   Max force component        2.753166e-07  Tolerance 1.000000e-07
+   Energy difference per atom 9.947598e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.539903e-06  Tolerance 1.000000e-07
+   Max force component        2.941796e-07  Tolerance 1.000000e-07
+   Energy difference per atom 5.684342e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.116368e-06  Tolerance 1.000000e-07
+   Max force component        2.873791e-07  Tolerance 1.000000e-07
+   Energy difference per atom 5.684342e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.915394e-06  Tolerance 1.000000e-07
+   Max force component        3.362663e-07  Tolerance 1.000000e-07
+   Energy difference per atom 8.052818e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.293044e-06  Tolerance 1.000000e-07
+   Max force component        3.216336e-07  Tolerance 1.000000e-07
+   Energy difference per atom 9.947598e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.997492e-06  Tolerance 1.000000e-07
+   Max force component        2.784443e-07  Tolerance 1.000000e-07
+   Energy difference per atom 7.579123e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.650827e-06  Tolerance 1.000000e-07
+   Max force component        2.505923e-07  Tolerance 1.000000e-07
+   Energy difference per atom 5.684342e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.521058e-06  Tolerance 1.000000e-07
+   Max force component        2.714977e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.158037e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.591146e-06  Tolerance 1.000000e-07
+   Max force component        3.471080e-07  Tolerance 1.000000e-07
+   Energy difference per atom 8.526513e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.032683e-06  Tolerance 1.000000e-07
+   Max force component        3.807940e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.184238e-13  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.940921e-06  Tolerance 1.000000e-07
+   Max force component        3.123230e-07  Tolerance 1.000000e-07
+   Energy difference per atom 9.000208e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.439201e-06  Tolerance 1.000000e-07
+   Max force component        2.285320e-07  Tolerance 1.000000e-07
+   Energy difference per atom 5.684342e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.203358e-06  Tolerance 1.000000e-07
+   Max force component        2.762044e-07  Tolerance 1.000000e-07
+   Energy difference per atom 3.789561e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.291953e-06  Tolerance 1.000000e-07
+   Max force component        2.828284e-07  Tolerance 1.000000e-07
+   Energy difference per atom 5.684342e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.748399e-06  Tolerance 1.000000e-07
+   Max force component        2.937214e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.631732e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.903111e-06  Tolerance 1.000000e-07
+   Max force component        3.045909e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.631732e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.219139e-06  Tolerance 1.000000e-07
+   Max force component        3.042720e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.631732e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.828492e-06  Tolerance 1.000000e-07
+   Max force component        3.832830e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.158037e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.110704e-06  Tolerance 1.000000e-07
+   Max force component        3.455226e-07  Tolerance 1.000000e-07
+   Energy difference per atom 6.158037e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.656359e-06  Tolerance 1.000000e-07
+   Max force component        2.365390e-07  Tolerance 1.000000e-07
+   Energy difference per atom 4.263256e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.020638e-06  Tolerance 1.000000e-07
+   Max force component        2.050591e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.842171e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.778237e-06  Tolerance 1.000000e-07
+   Max force component        2.183308e-07  Tolerance 1.000000e-07
+   Energy difference per atom 3.315866e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.762439e-06  Tolerance 1.000000e-07
+   Max force component        1.872771e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.842171e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.715901e-06  Tolerance 1.000000e-07
+   Max force component        1.558050e-07  Tolerance 1.000000e-07
+   Energy difference per atom 2.368476e-14  Tolerance 1.000000e-07
+ # Average timings at MD step     300. t/step: 6.08298e-02
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.354439e-06  Tolerance 1.000000e-07
+   Max force component        9.788730e-08  Tolerance 1.000000e-07
+   Energy difference per atom 1.421085e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.877200e-07  Tolerance 1.000000e-07
+   Max force component        1.137043e-07  Tolerance 1.000000e-07
+   Energy difference per atom 1.421085e-14  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.516543e-07  Tolerance 1.000000e-07
+   Max force component        1.035345e-07  Tolerance 1.000000e-07
+   Energy difference per atom 9.473903e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.610899e-07  Tolerance 1.000000e-07
+   Max force component        8.988193e-08  Tolerance 1.000000e-07
+   Energy difference per atom 9.473903e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.566403e-07  Tolerance 1.000000e-07
+   Max force component        7.545572e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.453231e-07  Tolerance 1.000000e-07
+   Max force component        7.751580e-08  Tolerance 1.000000e-07
+   Energy difference per atom 9.473903e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.510916e-07  Tolerance 1.000000e-07
+   Max force component        7.965739e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.673686e-07  Tolerance 1.000000e-07
+   Max force component        9.081808e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      9.771496e-07  Tolerance 1.000000e-07
+   Max force component        9.272491e-08  Tolerance 1.000000e-07
+   Energy difference per atom 9.473903e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.538099e-07  Tolerance 1.000000e-07
+   Max force component        6.709977e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.521793e-07  Tolerance 1.000000e-07
+   Max force component        7.198369e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.534840e-07  Tolerance 1.000000e-07
+   Max force component        5.358322e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.716850e-07  Tolerance 1.000000e-07
+   Max force component        4.049287e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.946565e-07  Tolerance 1.000000e-07
+   Max force component        2.592420e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.770360e-07  Tolerance 1.000000e-07
+   Max force component        2.692583e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.591750e-07  Tolerance 1.000000e-07
+   Max force component        2.836908e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.050336e-07  Tolerance 1.000000e-07
+   Max force component        2.977369e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.450363e-07  Tolerance 1.000000e-07
+   Max force component        2.445935e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.754415e-07  Tolerance 1.000000e-07
+   Max force component        1.968804e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.543535e-07  Tolerance 1.000000e-07
+   Max force component        2.270036e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.636791e-07  Tolerance 1.000000e-07
+   Max force component        3.120935e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.550123e-07  Tolerance 1.000000e-07
+   Max force component        3.560495e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      6.184431e-07  Tolerance 1.000000e-07
+   Max force component        3.766947e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.517005e-07  Tolerance 1.000000e-07
+   Max force component        3.871210e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.287283e-07  Tolerance 1.000000e-07
+   Max force component        3.319052e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.896353e-07  Tolerance 1.000000e-07
+   Max force component        3.515029e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.205915e-07  Tolerance 1.000000e-07
+   Max force component        5.277682e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.306892e-06  Tolerance 1.000000e-07
+   Max force component        6.844065e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.540440e-06  Tolerance 1.000000e-07
+   Max force component        5.732935e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.247822e-06  Tolerance 1.000000e-07
+   Max force component        5.047670e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.745361e-07  Tolerance 1.000000e-07
+   Max force component        5.145093e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      7.189119e-07  Tolerance 1.000000e-07
+   Max force component        3.631210e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.789680e-07  Tolerance 1.000000e-07
+   Max force component        3.226430e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.780223e-07  Tolerance 1.000000e-07
+   Max force component        3.087159e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.910307e-07  Tolerance 1.000000e-07
+   Max force component        2.839051e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.866133e-07  Tolerance 1.000000e-07
+   Max force component        3.715041e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      5.105235e-07  Tolerance 1.000000e-07
+   Max force component        3.511712e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.513168e-07  Tolerance 1.000000e-07
+   Max force component        2.370979e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.578086e-07  Tolerance 1.000000e-07
+   Max force component        2.284419e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.511704e-07  Tolerance 1.000000e-07
+   Max force component        2.211988e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      2.000039e-07  Tolerance 1.000000e-07
+   Max force component        2.676140e-08  Tolerance 1.000000e-07
+   Energy difference per atom 4.736952e-15  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.192307e-07  Tolerance 1.000000e-07
+   Max force component        2.737603e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      4.646294e-07  Tolerance 1.000000e-07
+   Max force component        2.674836e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      3.923850e-07  Tolerance 1.000000e-07
+   Max force component        1.708829e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      1.701884e-07  Tolerance 1.000000e-07
+   Max force component        1.238713e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+   Number of force calls: 1
+@GEOP
+   Current energy             -1.078254e+03
+   Position displacement      8.725835e-08  Tolerance 1.000000e-07
+   Max force component        1.251836e-08  Tolerance 1.000000e-07
+   Energy difference per atom 0.000000e+00  Tolerance 1.000000e-07
+SOFTEXIT CALLED FROM THREAD <Thread(Thread-348, started daemon 22709881542400)> Geometry optimization converged. Exiting simulation
+ !W! Soft exit has been requested with message: 'Geometry optimization converged. Exiting simulation'. Cleaning up.
+ @SOCKET: Shutting down the driver interface.
+Backup performed: RESTART -> #RESTART#0#
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 22710031279936)>  @ SIMULATION: Exiting cleanly.

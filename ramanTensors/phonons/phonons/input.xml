@@ -1,0 +1,29 @@
+<simulation mode='static' verbosity='medium'>
+  <output prefix='phonons'>
+  </output>
+  <total_steps> 100000 </total_steps>
+  <total_time>13600</total_time>
+  <prng>
+ <seed> 23653 </seed>
+  </prng>
+  <ffsocket mode='unix' name='MASE'>
+ <address> unixsocketipi </address>
+    <port> 23423 </port>
+  </ffsocket>
+<system>
+    <initialize nbeads='1'>
+      <file mode='xyz'> optimized.xyz </file>
+    </initialize>
+    <forces>
+      <force forcefield='MASE'> </force>
+    </forces>
+    <motion mode='vibrations'>
+      <vibrations mode='fd'>
+        <pos_shift> 0.001 </pos_shift>
+        <energy_shift> 0.001 </energy_shift>
+        <prefix> phonons </prefix>
+        <asr> crystal </asr>
+      </vibrations>
+    </motion>
+  </system>
+</simulation>

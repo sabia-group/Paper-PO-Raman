@@ -1,0 +1,31 @@
+<simulation mode='static' verbosity='medium'>
+  <output prefix='opt'>
+   <trajectory filename='pos' stride='1'> positions </trajectory>
+  </output>
+  <total_steps> 10000 </total_steps>
+  <total_time>13600</total_time>
+  <prng>
+ <seed> 32329 </seed>
+  </prng>
+  <ffsocket mode='unix' name='MASE'>
+ <address> unixsocketipi </address>
+    <port> 23423 </port>
+  </ffsocket>
+<system>
+    <initialize nbeads='1'>
+      <file mode='xyz'> initial.xyz </file>
+    </initialize>
+    <forces>
+      <force forcefield='MASE'> </force>
+    </forces>
+    <motion mode='minimize'>
+      <optimizer mode='bfgs'>
+        <tolerances>
+          <energy> 1e-7 </energy>
+          <force> 1e-7 </force>
+          <position> 1e-7 </position>
+        </tolerances>
+      </optimizer>
+    </motion>
+  </system>
+</simulation>

@@ -1,0 +1,38 @@
+<simulation verbosity='medium'>
+  <output prefix='nvt'>
+  <properties filename='out' stride='100'>  [ step, time{picosecond}, conserved, temperature{kelvin}, kinetic_cv, potential ] </properties>
+    <trajectory filename='xc' stride='40' format='xyz' cell_units='ase'> x_centroid{ase} </trajectory>
+    <trajectory filename='centroid_force' stride='40' format='ase'> f_centroid </trajectory>
+    <trajectory filename='physical_force' stride='40' format='ase'> forces_component_raw(1) </trajectory>
+   </output>
+  <total_steps> 60000 </total_steps>
+  <total_time> 83600 </total_time>
+  <prng>
+  <seed> 49201 </seed>
+  </prng>
+  <ffsocket mode='unix' name='MASE'>
+  <address> ipihost </address>
+  <port> 13236 </port>
+  </ffsocket>
+  <system>
+    <initialize nbeads='16'>
+      <file mode='xyz'> initial.xyz </file>
+      <velocities mode='thermal' units='kelvin'> caldo </velocities>
+    </initialize>
+    <forces>
+      <force forcefield='MASE' weight='1'> </force>
+      <force forcefield='MASE' weight='0' nbeads='1'> </force>
+     </forces>
+    <ensemble>
+      <temperature units='kelvin'> caldo </temperature>
+    </ensemble>
+    <motion mode='dynamics'>
+      <dynamics mode='nvt'>
+        <thermostat mode='pile_l'>
+          <tau units="femtosecond"> 100 </tau>
+        </thermostat>
+        <timestep units='femtosecond'> 0.5 </timestep>
+      </dynamics>
+    </motion>
+  </system>
+</simulation>
