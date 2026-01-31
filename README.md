@@ -17,6 +17,10 @@ Machine learning models and datasets for polarizabilties on anthracene.
   - `train_mace_pol.sbatch` - HPC batch submission script for model training
   - `dfpt/control.in` - FHI-aims input for DFPT calculations
 
+- **`sagpr/`** - SAGPR training files
+  - `train.xyz` - Training dataset for SAGPR model
+  - `sagpr.sbatch` - SAGPR sbatch training script with TENSOAP (https://github.com/alanmlewis/TENSOAP)
+
 ### `md-ml/`
 Machine learning models and datasets for MLIPs of anthracene and naphthalene.
 
