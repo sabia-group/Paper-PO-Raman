@@ -1,0 +1,30 @@
+mace_run_train \
+    --name="naphthalene_mace_tight" \
+    --train_file="train.xyz" \
+    --valid_fraction=0.05 \
+    --E0s="average" \
+    --model="MACE" \
+    --num_interactions=2 \
+    --num_channels=256 \
+    --max_L=0 \
+    --correlation=3 \
+    --r_max=6.0 \
+    --forces_weight=1000 \
+    --energy_weight=10 \
+    --energy_key="energy" \
+    --forces_key="forces" \
+    --batch_size=4 \
+    --valid_batch_size=6 \
+    --max_num_epochs=2000 \
+    --start_swa=1500 \
+    --scheduler_patience=15 \
+    --patience=30 \
+    --eval_interval=4 \
+    --ema \
+    --swa \
+    --error_table='PerAtomMAE' \
+    --default_dtype="float64"\
+    --device=cuda \
+    --seed=123 \
+    --restart_latest \
+    --save_cpu \
